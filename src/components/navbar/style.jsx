@@ -46,6 +46,7 @@ export const SubItems = styled.li`
   padding: 0.75rem 1.5rem 0.75rem 1.5rem;
   transition: 0.3s ease;
   border-radius: 1rem;
+  font-size: 1.25rem;
 
   &:hover {
     background-color: white;

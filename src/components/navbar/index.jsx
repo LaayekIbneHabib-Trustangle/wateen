@@ -22,6 +22,8 @@ const values = {
       "Restaurant Management Softaware",
       "Inventory Management",
       "Recipe Coasting Software",
+    ],
+    restaurants_2: [
       "Restaurant Vendor Payments ",
       "Purchasing & Order Management",
       "Expenses Tracking",
@@ -53,12 +55,14 @@ const Navbar = () => {
       <Wrapper>
         <Menu onMouseLeave={handleLeave}>
           <Item>
-            <NavLink to="/">
+            <NavLink style={{ color: "#594D6D" }} to="/">
               <img src="/images/logo-dark.svg" alt="" />
             </NavLink>
           </Item>
           <Item>
-            <NavLink to="/">Home</NavLink>
+            <NavLink style={{ color: "#594D6D" }} to="/">
+              Home
+            </NavLink>
           </Item>
           {Object.entries(values).map(([key, value]) => (
             <Item key={key} onMouseEnter={() => handleHover(key)}>
@@ -83,6 +87,7 @@ const Navbar = () => {
                       ? value.map((item) => (
                           <SubItems key={item}>
                             <NavLink
+                              style={{ color: "#594D6D" }}
                               key={item}
                               to={`/solutions/${item}`.toLowerCase()}
                             >
@@ -93,7 +98,9 @@ const Navbar = () => {
                       : Object.entries(value).map(([subKey, subValue]) => (
                           <div key={subKey}>
                             <SubItems style={{ pointerEvents: "none" }}>
-                              <h2>{subKey}</h2>
+                              <h3>
+                                {subKey === "restaurants_2" ? "‎" : subKey}
+                              </h3>
                             </SubItems>
                             {subValue.map((item) => (
                               <SubItems key={item}>{item}</SubItems>
@@ -106,13 +113,17 @@ const Navbar = () => {
             </Item>
           ))}
           <Item>
-            <NavLink to="/plans">Plans</NavLink>
+            <NavLink style={{ color: "#594D6D" }} to="/plans">
+              Plans
+            </NavLink>
           </Item>
           <Item>
-            <NavLink to="/login">Login</NavLink>
+            <NavLink style={{ color: "#594D6D" }} to="/login">
+              Login
+            </NavLink>
           </Item>
           <Item>
-            <NavLink to="/lets-talk">
+            <NavLink style={{ color: "#594D6D" }} to="/lets-talk">
               <StandardButton
                 name="Let's Talk"
                 width="12.5rem"
