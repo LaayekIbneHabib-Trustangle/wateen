@@ -19,18 +19,18 @@ const values = {
       "Invoice Manager",
       "Order Manager",
       "AP Manager",
-      "Restaurant Management Softaware",
+      "Restaurant Management Software",
       "Inventory Management",
       "Recipe Coasting Software",
     ],
     restaurants_2: [
-      "Restaurant Vendor Payments ",
+      "Restaurant Vendor Payments",
       "Purchasing & Order Management",
       "Expenses Tracking",
       "Multi Units & Chains",
       "Cookbook Software",
     ],
-    distributors: ["AP Manager"],
+    distributors: ["AR Manager"],
   },
   integrations: {
     buyers: ["POS", "Accounting & ERP Systems", "Ecommerce", "Reachware"],
@@ -49,6 +49,47 @@ const Navbar = () => {
       return updatedState;
     });
   };
+
+  //
+  function addHyphenAndLowercase(input) {
+    // Remove spaces from the input
+    const inputWithoutSpaces = input.replace(/\s/g, "");
+
+    // Find the index of the first capital letter
+    let firstCapitalIndex = -1;
+    for (let i = 0; i < inputWithoutSpaces.length; i++) {
+      if (
+        inputWithoutSpaces[i].toUpperCase() === inputWithoutSpaces[i] &&
+        inputWithoutSpaces[i].toLowerCase() !== inputWithoutSpaces[i]
+      ) {
+        firstCapitalIndex = i;
+        break;
+      }
+    }
+
+    // If no capital letter is found, return the input in lowercase
+    if (firstCapitalIndex === -1) {
+      return inputWithoutSpaces.toLowerCase();
+    }
+
+    // Add hyphen before each capital letter after the first occurrence
+    let result = inputWithoutSpaces
+      .split("")
+      .map((char, index) =>
+        index > firstCapitalIndex && char.toUpperCase() === char
+          ? `-${char}`
+          : char
+      )
+      .join("");
+
+    // Convert the entire string to lowercase
+    return result.toLowerCase();
+  }
+
+  // Example usage:
+  // const inputString = "This Is An Example";
+  // const modifiedString = addHyphenAndLowercase(inputString);
+  // console.log(modifiedString);
 
   return (
     <>
@@ -103,7 +144,18 @@ const Navbar = () => {
                               </h3>
                             </SubItems>
                             {subValue.map((item) => (
-                              <SubItems key={item}>{item}</SubItems>
+                              <SubItems key={item}>
+                                <NavLink
+                                  style={{ color: "#594D6D" }}
+                                  key={item}
+                                  // to={`/products/${item}`}
+                                  to={`/products/restaurants/${addHyphenAndLowercase(
+                                    item
+                                  )}`}
+                                >
+                                  {item}
+                                </NavLink>
+                              </SubItems>
                             ))}
                           </div>
                         ))}

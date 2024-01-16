@@ -3,28 +3,16 @@ import { Section, Hero, StyledList, StyledListItem } from "./style";
 import { Wrapper } from "..";
 
 const HeroSecondary = (props) => {
-  function breakString(inputString, delimiter) {
-    const firstDelimiterIndex = inputString.indexOf(delimiter);
+  function breakString(inputString, delimiter, maxParts = 99) {
+    const parts = inputString.split(delimiter).slice(1, maxParts);
 
-    if (firstDelimiterIndex !== -1) {
-      const secondDelimiterIndex = inputString.indexOf(
-        delimiter,
-        firstDelimiterIndex + 1
-      );
-
-      if (secondDelimiterIndex !== -1) {
-        const firstPart = inputString.slice(
-          firstDelimiterIndex + 1,
-          secondDelimiterIndex
-        );
-        const secondPart = inputString.slice(secondDelimiterIndex + 1);
-
-        return [firstPart, secondPart];
-      }
+    // If no delimiter is found or only one part is obtained, return the original string
+    if (parts.length === 0) {
+      return [inputString];
     }
 
-    // If the delimiter is not found or there's no second occurrence, return the original string
-    return [inputString];
+    console.log(parts[2]);
+    return parts;
   }
 
   // Example usage
