@@ -17,13 +17,30 @@ export const Box = styled.div`
     line-height: normal;
   }
 
-  div {
-    display: flex;
-    justify-content: space-between;
-    overflow-x: scroll;
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
   }
 
-  div img {
-    width: 100%;
+  .logos {
+    overflow: hidden;
+    padding: 6rem 0;
+    white-space: nowrap;
+    // background: red;
+    width: 100rem;
+  }
+
+  .logos-slide {
+    display: inline-block;
+    animation: 15s slide infinite linear;
+  }
+
+  .logos-slide img {
+    height: 6rem;
+    margin: 0 4rem;
   }
 `;

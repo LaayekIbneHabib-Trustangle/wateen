@@ -5,10 +5,12 @@ import StandardButton from "./button/standard";
 import AnimatedButton from "./button/animated";
 import AnimatedCard from "./card/animated";
 import StandardCard, { TabCard } from "./card/standard";
-import MediaBlock from "./media-block";
-import RequestADemo from "./request-a-demo";
+import MediaBlock from "./media_block";
+import RequestADemo from "./request_a_demo";
 import Brands from "./brands";
-import HeroSecondary from "./hero-secondary";
+import HeroSecondary from "./hero_secondary";
+import Benefits from "./benefits";
+import AlternateCards from "./alternate_cards";
 
 export {
   Navbar,
@@ -23,4 +25,6 @@ export {
   RequestADemo,
   Brands,
   HeroSecondary,
+  Benefits,
+  AlternateCards,
 };

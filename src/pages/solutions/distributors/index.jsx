@@ -10,7 +10,7 @@ import {
 import { Section } from "./style";
 
 const data = [
-  { img: "/images/account-receivable-automation.svg" },
+  { img: "/images/platform-animation.gif" },
   { h2: "Accounts Receivable Automation" },
   {
     p: "Save hours each week by automating data entry and card processing, while giving customers more convenient ways to pay.",

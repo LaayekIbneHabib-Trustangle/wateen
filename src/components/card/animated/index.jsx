@@ -4,7 +4,7 @@ import { Card } from "./style";
 const AnimatedCard = (props) => {
   return (
     <>
-      <Card theme={props.theme}>
+      <Card style={{ backgroundImage: `url(${props.bg})` }} theme={props.theme}>
         <div>
           <img src={props.icon} alt="" />
         </div>

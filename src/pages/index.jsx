@@ -1,5 +1,5 @@
 import Home from "./home";
-import LetsTalk from "./let's-talk";
+import LetsTalk from "./lets_talk";
 import Login from "./login";
 import Plans from "./plans";
 import APManager from "./products/restaurants/ap_manager";

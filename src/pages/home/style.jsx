@@ -34,6 +34,15 @@ export const Primary = styled.div`
   flex-direction: column;
   justify-content: center;
 
+  .wifi-ani {
+    position: relative;
+    top: 3.4rem;
+    left: 27.25rem;
+    width: 7rem;
+    margin: -6rem 0 0 0;
+    transform: rotate(30deg);
+  }
+
   h1 {
     color: #ffffff;
     font-size: 5.5rem;
@@ -63,6 +72,10 @@ export const Primary = styled.div`
   @media (max-width: 1080px) {
     align-items: center;
     width: 40rem;
+
+    .wifi-ani {
+      display: none;
+    }
 
     h1 {
       font-size: calc(5.5rem / 1.35);

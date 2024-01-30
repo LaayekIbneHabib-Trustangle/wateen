@@ -5,6 +5,7 @@ export const Card = styled.div`
   z-index: 1;
   background-color: ${(props) =>
     props.theme === "#ffffff" ? "#52006a" : "#ffffff"};
+  background-image: url();
   overflow: hidden;
   width: 32rem;
   height: 22rem;
@@ -28,7 +29,7 @@ export const Card = styled.div`
     border-radius: 50%;
     transform-origin: center;
     transform: scale(1);
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
   }
 
   &:hover::before {

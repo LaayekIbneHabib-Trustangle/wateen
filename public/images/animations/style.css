@@ -1,0 +1,197 @@
+/** Start Main Setting **/
+
+:root {
+  --mainColor: #52006a;
+  --secondColor: #ff7600;
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --black2color: #242424;
+  --black3color: #5f5f5f;
+  --bggray: #f8f8f8;
+}
+
+/** Start Main slider **/
+.mainSlider {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 125px;
+}
+
+.mainSlider .row {
+  align-items: center;
+}
+.mainSlider .contentSlider {
+  position: relative;
+}
+
+.mainSlider .contentSlider h2 {
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 68px;
+  color: var(--whiteColor);
+}
+
+.mainSlider .contentSlider h2 .contentWifi {
+  color: var(--secondColor);
+  position: relative;
+}
+
+.mainSlider .contentSlider h2 .contentWifi .wifi-symbol {
+  position: absolute;
+  left: 93px;
+  transform: rotate(-7deg);
+  top: 45px;
+}
+
+.mainSlider .contentSlider h3 {
+  color: var(--whiteColor);
+  padding-bottom: 20px;
+  line-height: 68px;
+  font-size: 37px;
+  margin-bottom: 60px;
+}
+.mainSlider .contentSlider .btnsSlider {
+  display: flex;
+  gap: 16px;
+}
+
+.mainSlider .imgSlider {
+  display: flex;
+  justify-content: center;
+}
+
+.mainSlider .imgSlider img {
+  width: 480px;
+}
+/** End Main Slider **/
+
+/* Start Wifi Animation */
+@keyframes arcHide {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.wifi span {
+  display: block;
+  margin-bottom: -14px;
+}
+.wifi span.arc1 {
+  opacity: 1;
+}
+.wifi span.arc2 {
+  opacity: 0;
+  animation-name: arcHide;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+}
+.wifi span.arc3 {
+  opacity: 0;
+  animation-name: arcHide;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  animation-delay: 1s;
+}
+.wifi span.arc4 {
+  opacity: 0;
+  animation-name: arcHide;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+.wifi-he {
+  text-align: center;
+  vertical-align: center;
+  margin: 20px 10px 0;
+  background-color: #31313b;
+}
+.wifi {
+  width: 200px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wifi-symbol {
+  display: none;
+}
+.wifi-symbol [foo],
+.wifi-symbol {
+  display: block;
+  position: absolute;
+  /* top: 50%; */
+  display: inline-block;
+  /* width: 150px; */
+  /* height: 150px; */
+  /* margin-top: -187.5px; */
+  /* transform: rotate(-45deg) translate(-100px); */
+  top: 100px;
+  left: 306px;
+}
+.wifi-symbol .wifi-circle {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 21.4285714286px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-color: var(--whiteColor);
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  border-radius: 0 100% 0 0;
+  opacity: 0;
+  animation: wifianimation 3s infinite;
+  -webkit-animation: wifianimation 3s infinite;
+}
+.wifi-symbol .wifi-circle.first {
+  animation-delay: 800ms;
+  width: 40px;
+  height: 40px;
+}
+.wifi-symbol .wifi-circle.second {
+  width: 30px;
+  height: 30px;
+  animation-delay: 400ms;
+}
+.wifi-symbol .wifi-circle.third {
+  width: 20px;
+  height: 20px;
+}
+.wifi-symbol .wifi-circle.fourth {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+@keyframes wifianimation {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opactiy: 1;
+  }
+  60% {
+    opactiy: 0.1;
+  }
+  100% {
+    opactiy: 0.1;
+  }
+}
+
+/* End Wifi Animation */

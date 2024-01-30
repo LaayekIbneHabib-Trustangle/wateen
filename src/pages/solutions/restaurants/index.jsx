@@ -10,7 +10,8 @@ import {
 import { Section } from "./style";
 
 const data1 = [
-  { img: "/images/account-receivable-automation.svg" },
+  // { img: "/images/account-receivable-automation.svg" },
+  { img: "/images/platform-animation.gif" },
   { h2: "Order Manager" },
   { h3: "For Chefs and OPS Managers" },
   {

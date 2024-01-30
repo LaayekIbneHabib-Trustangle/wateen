@@ -18,6 +18,7 @@ const Home = () => {
         <Wrapper>
           <Hero>
             <Primary>
+              <img className="wifi-ani" src="/images/wifi-ani.gif" alt="" />
               <h1>
                 #1 B2B <span>Online</span>
               </h1>
@@ -52,7 +53,7 @@ const Home = () => {
                 lineHeight: "normal",
               }}
             >
-              What is <span style={{ color: "#ff7600" }}>Wateen?</span>
+              What is <span style={{ color: "#ff7600" }}>Wateen</span>?
             </h2>
             <p
               style={{
@@ -91,6 +92,7 @@ const Home = () => {
               heading="Easing Bulk Food and Beverage Ordering"
               paragraph="Simplifies ordering bulk food and beverages for restaurants and suppliers of all sizes"
               icon="/images/bag.svg"
+              bg="/images/easing-bulk-food-and-beverage-ordering.png"
             />
             <AnimatedCard
               theme="#52006a"
