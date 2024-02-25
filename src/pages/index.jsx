@@ -16,6 +16,7 @@ import RestaurantManagementSoftware from "./products/restaurants/restuarant_mana
 import ARManager from "./products/distributors/ar_manager";
 import Restaurants from "./solutions/restaurants";
 import Distributors from "./solutions/distributors";
+import Blogs from "./blogs";
 
 export {
   Home,
@@ -36,4 +37,5 @@ export {
   ARManager,
   Restaurants,
   Distributors,
+  Blogs,
 };

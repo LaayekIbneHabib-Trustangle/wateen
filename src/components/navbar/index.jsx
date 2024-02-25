@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Wrapper, StandardButton } from "..";
 import useStore from "../../store";
+import { useState } from "react";
 
 import {
   Menu,
@@ -10,6 +11,9 @@ import {
   BurgerItem,
   SubMenu,
   SubItems,
+  Heading,
+  BurgerSubMenu,
+  BurgerSubItem,
 } from "./style.jsx";
 
 const values = {
@@ -41,6 +45,11 @@ const values = {
 
 const Navbar = () => {
   const { hoveredKey, handleHover, handleLeave } = useStore();
+  const [sidenavOpen, setSidenavOpen] = useState(false);
+
+  const toggled = {
+    display: sidenavOpen ? "block" : "none",
+  };
 
   const handleClick = (itemId) => {
     setYourState((prevState) => {
@@ -130,7 +139,7 @@ const Navbar = () => {
                             <NavLink
                               style={{ color: "#594D6D" }}
                               key={item}
-                              to={`/solutions/${item}`.toLowerCase()}
+                              to={`/${item}`.toLowerCase()}
                             >
                               {item}
                             </NavLink>
@@ -148,10 +157,7 @@ const Navbar = () => {
                                 <NavLink
                                   style={{ color: "#594D6D" }}
                                   key={item}
-                                  // to={`/products/${item}`}
-                                  to={`/products/restaurants/${addHyphenAndLowercase(
-                                    item
-                                  )}`}
+                                  to={`/${addHyphenAndLowercase(item)}`}
                                 >
                                   {item}
                                 </NavLink>
@@ -185,12 +191,14 @@ const Navbar = () => {
           </Item>
         </Menu>
 
-        <BurgerMenu>
+        <Heading>
           <main>
-            <div>
-              <NavLink to="/">
+            <div onClick={() => setSidenavOpen((prevState) => !prevState)}>
+              {toggled.display === "none" ? (
                 <img src="/images/burger-menu.svg" alt="" />
-              </NavLink>
+              ) : (
+                <img src="/images/close-menu.svg" alt="" />
+              )}
             </div>
             <div>
               <NavLink to="/">
@@ -198,13 +206,89 @@ const Navbar = () => {
               </NavLink>
             </div>
           </main>
+        </Heading>
 
-          <BurgerItem
-          // style={{
-          //   height: "calc(100vh - 8rem)",
-          //   width: "100%",
-          // }}
-          ></BurgerItem>
+        <BurgerMenu
+          style={{
+            display: toggled.display,
+            height: "100%",
+            width: "100%",
+          }}
+        >
+          <NavLink to={`/`.toLowerCase()}>
+            <BurgerItem>Home</BurgerItem>
+          </NavLink>
+          {Object.entries(values).map(([key, value]) => (
+            <BurgerItem key={key} onMouseEnter={() => handleHover(key)}>
+              <>
+                <span
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  {key} <img src="/images/right-arrow.svg" alt="" />
+                </span>
+                {hoveredKey === key && value && (
+                  <BurgerSubMenu>
+                    {Array.isArray(value)
+                      ? value.map((item) => (
+                          <BurgerSubItem key={item}>
+                            <NavLink
+                              style={{ color: "#594D6D" }}
+                              key={item}
+                              to={`/${item}`.toLowerCase()}
+                            >
+                              {item}
+                            </NavLink>
+                          </BurgerSubItem>
+                        ))
+                      : Object.entries(value).map(([subKey, subValue]) => (
+                          <div key={subKey}>
+                            <BurgerSubItem style={{ pointerEvents: "none" }}>
+                              <p
+                                style={{
+                                  color: "#FF7600",
+                                  margin: "0 0 0 -1.5rem",
+                                }}
+                              >
+                                {subKey === "restaurants_2" ? "" : subKey}
+                              </p>
+                            </BurgerSubItem>
+                            {subValue.map((item) => (
+                              <BurgerSubItem key={item}>
+                                <NavLink
+                                  style={{ color: "#594D6D" }}
+                                  key={item}
+                                  to={`/${addHyphenAndLowercase(item)}`}
+                                >
+                                  {item}
+                                </NavLink>
+                              </BurgerSubItem>
+                            ))}
+                          </div>
+                        ))}
+                  </BurgerSubMenu>
+                )}
+              </>
+            </BurgerItem>
+          ))}
+          <NavLink to={`/plans`.toLowerCase()}>
+            <BurgerItem>Plans</BurgerItem>
+          </NavLink>
+          <NavLink to={`/login`.toLowerCase()}>
+            <BurgerItem>Login</BurgerItem>
+          </NavLink>
+          <BurgerItem>
+            <NavLink to={`/lets-talk`.toLowerCase()}>
+              <StandardButton
+                name="Let's Talk"
+                width="100%"
+                borderRadius="3rem"
+              />
+            </NavLink>
+          </BurgerItem>
         </BurgerMenu>
       </Wrapper>
     </>
