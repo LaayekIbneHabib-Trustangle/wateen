@@ -11,6 +11,7 @@ import Brands from "./brands";
 import HeroSecondary from "./hero_secondary";
 import Benefits from "./benefits";
 import AlternateCards from "./alternate_cards";
+import Bars from "./bars";
 
 export {
   Navbar,
@@ -27,4 +28,5 @@ export {
   HeroSecondary,
   Benefits,
   AlternateCards,
+  Bars,
 };

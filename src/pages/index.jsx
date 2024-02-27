@@ -18,6 +18,7 @@ import Restaurants from "./solutions/restaurants";
 import Distributors from "./solutions/distributors";
 import Blogs from "./blogs";
 import BlogDetails from "./blog_details";
+import AccountingAndERPSytems from "./integrations/suppliers/accounting_&_erp_systems";
 
 export {
   Home,
@@ -40,4 +41,5 @@ export {
   Distributors,
   Blogs,
   BlogDetails,
+  AccountingAndERPSytems,
 };

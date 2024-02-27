@@ -22,6 +22,7 @@ import {
   LetsTalk,
   Blogs,
   BlogDetails,
+  AccountingAndERPSytems,
 } from "./pages";
 
 const App = () => {
@@ -62,6 +63,10 @@ const App = () => {
         <Route path="/plans" element={<Plans />} />
         <Route path="/login" element={<Login />} />
         <Route path="/lets-talk" element={<LetsTalk />} />
+        <Route
+          path="/accounting-&-e-r-p-systems"
+          element={<AccountingAndERPSytems />}
+        />
       </Routes>
       <Footer />
     </>
