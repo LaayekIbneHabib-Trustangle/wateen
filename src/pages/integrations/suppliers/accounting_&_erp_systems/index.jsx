@@ -57,7 +57,7 @@ const AccountingAndERPSytems = () => {
           <Bars img="/images/accounting-&-erp-systems.svg" />
         </Wrapper>
       </section>
-      <section style={{ marginBottom: "50rem" }}>
+      <section style={{ marginTop: "5rem", marginBottom: "55rem" }}>
         <Wrapper>
           <RequestADemo />
         </Wrapper>
