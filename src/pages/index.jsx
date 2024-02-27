@@ -17,6 +17,7 @@ import ARManager from "./products/distributors/ar_manager";
 import Restaurants from "./solutions/restaurants";
 import Distributors from "./solutions/distributors";
 import Blogs from "./blogs";
+import BlogDetails from "./blog_details";
 
 export {
   Home,
@@ -38,4 +39,5 @@ export {
   Restaurants,
   Distributors,
   Blogs,
+  BlogDetails,
 };

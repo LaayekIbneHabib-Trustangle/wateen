@@ -21,6 +21,7 @@ import {
   Login,
   LetsTalk,
   Blogs,
+  BlogDetails,
 } from "./pages";
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
         />
         <Route path="/a-r-manager" element={<ARManager />} />
         <Route path="/blog" element={<Blogs />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/plans" element={<Plans />} />
         <Route path="/login" element={<Login />} />
         <Route path="/lets-talk" element={<LetsTalk />} />

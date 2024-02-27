@@ -1,0 +1,37 @@
+.blog {
+  margin-top: 2rem;
+}
+
+.blog .post-title {
+  color: #52006a;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: -0.96px;
+}
+
+.blog img {
+  width: 100%;
+  border-radius: 2rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.blog .body p {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.blog .body span {
+  color: #52006a;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.blog .body h2 {
+  color: #52006a;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: -0.96px;
+}
