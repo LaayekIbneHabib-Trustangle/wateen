@@ -23,6 +23,9 @@ import {
   Blogs,
   BlogDetails,
   AccountingAndERPSytems,
+  POS,
+  AccountingAndERPSytemsBuyers,
+  Ecommerce,
 } from "./pages";
 
 const App = () => {
@@ -67,6 +70,12 @@ const App = () => {
           path="/accounting-&-e-r-p-systems"
           element={<AccountingAndERPSytems />}
         />
+        <Route path="/p-o-s" element={<POS />} />
+        <Route
+          path="/accounting-&-e-r-p-systems-buyers"
+          element={<AccountingAndERPSytemsBuyers />}
+        />
+        <Route path="/ecommerce" element={<Ecommerce />} />
       </Routes>
       <Footer />
     </>

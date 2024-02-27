@@ -19,6 +19,9 @@ import Distributors from "./solutions/distributors";
 import Blogs from "./blogs";
 import BlogDetails from "./blog_details";
 import AccountingAndERPSytems from "./integrations/suppliers/accounting_&_erp_systems";
+import POS from "./integrations/buyers/pos";
+import AccountingAndERPSytemsBuyers from "./integrations/buyers/accounting_&_erp_systems_buyers";
+import Ecommerce from "./integrations/buyers/ecommerce";
 
 export {
   Home,
@@ -42,4 +45,7 @@ export {
   Blogs,
   BlogDetails,
   AccountingAndERPSytems,
+  POS,
+  AccountingAndERPSytemsBuyers,
+  Ecommerce,
 };

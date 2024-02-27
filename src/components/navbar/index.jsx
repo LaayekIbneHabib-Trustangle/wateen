@@ -37,7 +37,12 @@ const values = {
     distributors: ["AR Manager"],
   },
   integrations: {
-    buyers: ["POS", "Accounting & ERP Systems", "Ecommerce", "Reachware"],
+    buyers: [
+      "POS",
+      "Accounting & ERP Systems",
+      "Ecommerce",
+      "Accounting & ERP Systems Buyers",
+    ],
     suppliers: ["Accounting & ERP Systems"],
   },
   resources: ["About us", "Case Studies", "Blog", "News"],
