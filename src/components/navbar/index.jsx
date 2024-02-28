@@ -39,11 +39,14 @@ const values = {
   integrations: {
     buyers: [
       "POS",
-      "Accounting & ERP Systems",
-      "Ecommerce",
       "Accounting & ERP Systems Buyers",
+      "Ecommerce",
+      "Integration Platform (iPaaS) Buyers",
     ],
-    suppliers: ["Accounting & ERP Systems"],
+    suppliers: [
+      "Accounting & ERP Systems Suppliers",
+      "Integration Platform (iPaaS) Suppliers",
+    ],
   },
   resources: ["About us", "Case Studies", "Blog", "News"],
 };

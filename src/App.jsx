@@ -26,6 +26,7 @@ import {
   POS,
   AccountingAndERPSytemsBuyers,
   Ecommerce,
+  IPAAS,
 } from "./pages";
 
 const App = () => {
@@ -67,7 +68,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/lets-talk" element={<LetsTalk />} />
         <Route
-          path="/accounting-&-e-r-p-systems"
+          path="/accounting-&-e-r-p-systems-suppliers"
           element={<AccountingAndERPSytems />}
         />
         <Route path="/p-o-s" element={<POS />} />
@@ -76,6 +77,14 @@ const App = () => {
           element={<AccountingAndERPSytemsBuyers />}
         />
         <Route path="/ecommerce" element={<Ecommerce />} />
+        <Route
+          path="/integration-platform-(i-paa-s-)-buyers"
+          element={<IPAAS />}
+        />
+        <Route
+          path="/integration-platform-(i-paa-s-)-suppliers"
+          element={<IPAAS />}
+        />
       </Routes>
       <Footer />
     </>
