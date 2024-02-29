@@ -55,6 +55,7 @@ const Login = () => {
                     backgroundPosition: "2rem .8rem",
                   }}
                   type="email"
+                  placeholder="Your email"
                 />
                 <input
                   style={{
@@ -68,6 +69,7 @@ const Login = () => {
                     backgroundPosition: "2rem .8rem",
                   }}
                   type="password"
+                  placeholder="Your password"
                 />
                 <div
                   style={{ display: "flex", justifyContent: "space-between" }}
