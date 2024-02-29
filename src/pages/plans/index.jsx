@@ -78,7 +78,12 @@ const Plans = () => {
               business with our flexible pricing plans. Choose the plan that
               suits your needs and unlock a world of efficiency.
             </p>
-            <div style={{ position: "relative", display: "inline-block" }}>
+            <div
+              style={{
+                position: "relative",
+                display: "inline-block",
+              }}
+            >
               <button
                 style={{
                   position: "absolute",
@@ -124,7 +129,6 @@ const Plans = () => {
                   fontWeight: "700",
                 }}
               ></button>
-
               <img
                 style={{
                   marginTop: "5rem",
