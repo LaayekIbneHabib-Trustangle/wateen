@@ -1,0 +1,12 @@
+.toggle-btn {
+  border-radius: 4rem;
+  height: 4rem;
+  width: 20rem;
+  background: transparent;
+  border: 1px solid #52006a;
+}
+
+.toggle-btn-active {
+  background-color: #52006a;
+  color: white;
+}
