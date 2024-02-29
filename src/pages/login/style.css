@@ -1,0 +1,36 @@
+.checkbox[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+/* When checked, change the background color */
+.checkbox[type="checkbox"]:checked {
+  background-color: #ff7600; /* Change this color to whatever you like */
+  border: 1px solid #ff7600;
+}
+
+/* Custom checkmark */
+.checkbox[type="checkbox"]:checked::before {
+  content: "\2713"; /* Unicode checkmark character */
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 1040px) {
+  .primary,
+  .secondary {
+    width: 100% !important;
+  }
+}
