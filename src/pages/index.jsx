@@ -23,6 +23,7 @@ import POS from "./integrations/buyers/pos";
 import AccountingAndERPSytemsBuyers from "./integrations/buyers/accounting_&_erp_systems_buyers";
 import Ecommerce from "./integrations/buyers/ecommerce";
 import IPAAS from "./integrations/buyers/ipaas";
+import AboutUs from "./about_us";
 
 export {
   Home,
@@ -50,4 +51,5 @@ export {
   AccountingAndERPSytemsBuyers,
   Ecommerce,
   IPAAS,
+  AboutUs,
 };

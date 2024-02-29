@@ -48,7 +48,7 @@ const values = {
       "Integration Platform (iPaaS) Suppliers",
     ],
   },
-  resources: ["About us", "Case Studies", "Blog", "News"],
+  resources: ["About Us", "Case Studies", "Blog", "News"],
 };
 
 const Navbar = () => {
@@ -147,7 +147,7 @@ const Navbar = () => {
                             <NavLink
                               style={{ color: "#594D6D" }}
                               key={item}
-                              to={`/${item}`.toLowerCase()}
+                              to={`/${addHyphenAndLowercase(item)}`}
                             >
                               {item}
                             </NavLink>
