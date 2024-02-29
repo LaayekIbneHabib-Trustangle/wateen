@@ -24,6 +24,7 @@ import AccountingAndERPSytemsBuyers from "./integrations/buyers/accounting_&_erp
 import Ecommerce from "./integrations/buyers/ecommerce";
 import IPAAS from "./integrations/buyers/ipaas";
 import AboutUs from "./about_us";
+import NotFound from "./404";
 
 export {
   Home,
@@ -52,4 +53,5 @@ export {
   Ecommerce,
   IPAAS,
   AboutUs,
+  NotFound,
 };

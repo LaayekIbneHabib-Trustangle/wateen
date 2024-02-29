@@ -28,6 +28,7 @@ import {
   Ecommerce,
   IPAAS,
   AboutUs,
+  NotFound,
 } from "./pages";
 
 const App = () => {
@@ -35,7 +36,7 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path="*" element={<h1>404</h1>} />
+        <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="restaurants" element={<Restaurants />} />
         <Route path="distributors" element={<Distributors />} />
