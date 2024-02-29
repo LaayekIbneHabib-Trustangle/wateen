@@ -12,7 +12,7 @@ const Login = () => {
               display: "flex",
               justifyContent: "center",
               gap: "5rem",
-              flexWrap: "wrap",
+              flexWrap: "wrap-reverse",
             }}
           >
             <div className="primary" style={{ width: "47.5%" }}>
