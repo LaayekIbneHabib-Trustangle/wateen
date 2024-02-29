@@ -25,6 +25,7 @@ import Ecommerce from "./integrations/buyers/ecommerce";
 import IPAAS from "./integrations/buyers/ipaas";
 import AboutUs from "./about_us";
 import NotFound from "./404";
+import RequestADemo from "./request_a_demo";
 
 export {
   Home,
@@ -54,4 +55,5 @@ export {
   IPAAS,
   AboutUs,
   NotFound,
+  RequestADemo,
 };

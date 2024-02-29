@@ -29,6 +29,7 @@ import {
   IPAAS,
   AboutUs,
   NotFound,
+  RequestADemo,
 } from "./pages";
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="restaurants" element={<Restaurants />} />
+        <Route path="request-a-demo" element={<RequestADemo />} />
         <Route path="distributors" element={<Distributors />} />
         <Route path="/a-p-manager" element={<APManager />} />
         <Route path="/cookbook-software" element={<CookbookSoftware />} />

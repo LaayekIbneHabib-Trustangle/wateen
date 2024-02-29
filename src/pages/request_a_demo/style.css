@@ -1,0 +1,5 @@
+@media all and (max-width: 1038px) {
+  input {
+    width: 100% !important;
+  }
+}

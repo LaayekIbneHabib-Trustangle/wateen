@@ -112,7 +112,6 @@ const LetsTalk = () => {
               </div>
             </div>
           </div>
-
           <div
             style={{
               display: "flex",
