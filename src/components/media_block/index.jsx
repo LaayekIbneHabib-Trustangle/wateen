@@ -33,8 +33,26 @@ const MediaBlock = (props) => {
           <AnimatedButton bg={props?.btnClr} name="Learn More‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎" />
         </Primary>
         <Secondary>
-          <img src={props?.img} alt="" />
-          <p>{props?.caption}</p>
+          <div
+            style={{
+              position: "relative",
+              display: "flex",
+              flexDirection: "column",
+              gap: "6rem",
+            }}
+          >
+            <img className="laptop" src="/images/laptop.png" alt="" />
+            <img
+              className="screen"
+              style={{
+                position: "relative",
+                zIndex: "1",
+              }}
+              src={props?.img}
+              alt=""
+            />
+            <p>{props?.caption}</p>
+          </div>
         </Secondary>
       </Box>
     </>

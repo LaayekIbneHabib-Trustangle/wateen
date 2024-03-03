@@ -77,8 +77,16 @@ export const Primary = styled.div`
 `;
 
 export const Secondary = styled.div`
-  img {
+  .screen {
     width: 45rem;
+  }
+
+  .laptop {
+    width: 63rem;
+    position: absolute;
+    z-index: 0;
+    top: -3rem;
+    left: -9rem;
   }
 
   p {
@@ -97,8 +105,22 @@ export const Secondary = styled.div`
   }
 
   @media (max-width: 580px) {
-    img {
-      width: 90vw;
+    .screen {
+      width: 70vw;
+      position: absolute;
+      z-index: 0;
+      top: 12rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .laptop {
+      width: 100vw;
+      position: absolute;
+      z-index: 0;
+      top: 12rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 `;
