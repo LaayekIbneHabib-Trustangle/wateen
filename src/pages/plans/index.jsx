@@ -106,82 +106,90 @@ const Plans = () => {
             </p>
 
             <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                margin: "5rem 0 0 0",
-                flexWrap: "wrap",
-                gap: "2rem",
-                alignItems: "center",
-              }}
+              style={{ display: "flex", flexDirection: "column", gap: "5rem" }}
             >
               <div
-                style={{ display: "flex", alignItems: "center", gap: "2rem" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  margin: "5rem 0 0 0",
+                  flexWrap: "wrap",
+                  gap: "2rem",
+                  alignItems: "center",
+                }}
               >
-                <p style={{ fontSize: "1.2rem" }}>Number of locations</p>
-                <input
-                  style={{ width: "7.5rem", height: "4rem", padding: "1rem" }}
-                  type="number"
-                  value={number}
-                  onChange={handleChange}
-                  min="1"
-                />
-              </div>
-              <div style={{ display: "flex", gap: "2rem" }}>
-                <select
-                  style={{ width: "7.5rem", height: "4rem" }}
-                  id="currencies"
-                  value={currency}
-                  onChange={handleChangeCurrency}
-                >
-                  <option value="USD">🇺🇸 USD</option>
-                  <option value="SAR">🇸🇦 SAR</option>
-                </select>
                 <div
-                  style={{ border: "1px solid black", borderRadius: "2rem" }}
+                  style={{ display: "flex", alignItems: "center", gap: "2rem" }}
                 >
-                  <button
-                    style={{
-                      padding: ".75rem 2.75rem .75rem 2.75rem",
-                      borderRadius: "2rem",
-                      border: "0",
-                      height: "4rem",
-                      width: "10rem",
-                      background:
-                        activeButton2 === "monthly" ? "#52006A" : "none",
-                      color: activeButton2 === "monthly" ? "white" : "black",
-                    }}
-                    onClick={() => handleClick2("monthly")}
+                  <p style={{ fontSize: "1.2rem" }}>Number of locations</p>
+                  <input
+                    style={{ width: "7.5rem", height: "4rem", padding: "1rem" }}
+                    type="number"
+                    value={number}
+                    onChange={handleChange}
+                    min="1"
+                  />
+                </div>
+                <div style={{ display: "flex", gap: "2rem" }}>
+                  <select
+                    style={{ width: "7.5rem", height: "4rem" }}
+                    id="currencies"
+                    value={currency}
+                    onChange={handleChangeCurrency}
                   >
-                    Monthly
-                  </button>
-                  <button
-                    style={{
-                      padding: ".75rem 2.75rem .75rem 2.75rem",
-                      height: "4rem",
-                      width: "10rem",
-                      borderRadius: "2rem",
-                      border: "0",
-                      background:
-                        activeButton2 === "yearly" ? "#52006A" : "none",
-                      color: activeButton2 === "yearly" ? "white" : "black",
-                    }}
-                    onClick={() => handleClick2("yearly")}
+                    <option value="USD">🇺🇸 USD</option>
+                    <option value="SAR">🇸🇦 SAR</option>
+                  </select>
+                  <div
+                    style={{ border: "1px solid black", borderRadius: "2rem" }}
                   >
-                    Yearly
-                  </button>
+                    <button
+                      style={{
+                        padding: ".75rem 2.75rem .75rem 2.75rem",
+                        borderRadius: "2rem",
+                        border: "0",
+                        height: "4rem",
+                        width: "10rem",
+                        background:
+                          activeButton2 === "monthly" ? "#52006A" : "none",
+                        color: activeButton2 === "monthly" ? "white" : "black",
+                      }}
+                      onClick={() => handleClick2("monthly")}
+                    >
+                      Monthly
+                    </button>
+                    <button
+                      style={{
+                        padding: ".75rem 2.75rem .75rem 2.75rem",
+                        height: "4rem",
+                        width: "10rem",
+                        borderRadius: "2rem",
+                        border: "0",
+                        background:
+                          activeButton2 === "yearly" ? "#52006A" : "none",
+                        color: activeButton2 === "yearly" ? "white" : "black",
+                      }}
+                      onClick={() => handleClick2("yearly")}
+                    >
+                      Yearly
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                margin: "5rem 0 0 0",
-              }}
-            >
-              <img src="images/inventory-management-plan.svg" alt="" />
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  margin: "5rem 0 0 0",
+                }}
+              >
+                <img
+                  width="100%"
+                  src="images/inventory-management-plan.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </section>
         ) : (
