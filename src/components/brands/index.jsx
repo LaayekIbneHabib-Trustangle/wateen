@@ -5,16 +5,18 @@ const Brands = () => {
   return (
     <>
       <Box>
-        <h2>
-          <span
-            style={{
-              fontWeight: "bold",
-            }}
-          >
-            Integrates{" "}
-          </span>
-          with your systems directly
-        </h2>
+        <div>
+          <h2>
+            <span
+              style={{
+                fontWeight: "bold",
+              }}
+            >
+              Integrates{" "}
+            </span>
+            with your systems directly
+          </h2>
+        </div>
         <div className="logos">
           <div className="logos-slide">
             <img src="/images/hunger-station.svg" alt="" />

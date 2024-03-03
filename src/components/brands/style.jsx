@@ -17,6 +17,12 @@ export const Box = styled.div`
     line-height: normal;
   }
 
+  @media all and (max-width: 570px) {
+    h2 {
+      font-size: 1.75rem;
+    }
+  }
+
   @keyframes slide {
     from {
       transform: translateX(0);
