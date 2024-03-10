@@ -3,7 +3,7 @@ import { HeroSecondary, Wrapper } from "../../components";
 import { useLocation } from "react-router-dom";
 
 const LetsTalk = () => {
-  const location = useLocation();
+  const location = ["Hpme", "Let's talk"];
   return (
     <>
       <section>
@@ -17,7 +17,7 @@ const LetsTalk = () => {
         <Wrapper>
           <div
             style={{
-              border: "1px solid gray",
+              border: "1px solid #E7E5EA",
               padding: "2rem",
               borderRadius: "2rem",
             }}
@@ -31,7 +31,7 @@ const LetsTalk = () => {
                   textAlign: "center",
                 }}
               >
-                Get in touch
+                Get in <span style={{ color: "black" }}>touch</span>
               </h2>
               <p
                 style={{
@@ -65,7 +65,7 @@ const LetsTalk = () => {
                     borderRadius: "1rem",
                     padding: "0 0 0 2rem",
                     height: "4rem",
-                    width: "calc(50% - .5rem)",
+                    width: "40%",
                   }}
                   type="text"
                   placeholder="Name"
@@ -77,13 +77,19 @@ const LetsTalk = () => {
                     borderRadius: "1rem",
                     padding: "0 0 0 2rem",
                     height: "4rem",
-                    width: "calc(50% - .5rem)",
+                    width: "40%",
                   }}
                   type="email"
                   placeholder="Email"
                 />
               </div>
-              <div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
                 <input
                   style={{
                     background: "#E7E5EA",
@@ -91,7 +97,7 @@ const LetsTalk = () => {
                     borderRadius: "1rem",
                     padding: "0 0 0 2rem",
                     height: "15rem",
-                    width: "100%",
+                    width: "81%",
                     marginBottom: "1rem",
                   }}
                   type="text"
@@ -99,7 +105,7 @@ const LetsTalk = () => {
                 />
                 <button
                   style={{
-                    width: "100%",
+                    width: "81%",
                     height: "3rem",
                     borderRadius: "1rem",
                     border: "0",
@@ -123,7 +129,7 @@ const LetsTalk = () => {
           >
             <div
               style={{
-                border: "1px solid gray",
+                border: "1px solid #E7E5EA",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -156,7 +162,7 @@ const LetsTalk = () => {
             </div>
             <div
               style={{
-                border: "1px solid gray",
+                border: "1px solid #E7E5EA",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -189,7 +195,7 @@ const LetsTalk = () => {
             </div>
             <div
               style={{
-                border: "1px solid gray",
+                border: "1px solid #E7E5EA",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",

@@ -21,7 +21,7 @@ const Brands = () => {
           <div className="logos-slide">
             <img src="/images/hunger-station.svg" alt="" />
             <img
-              style={{ marginRight: "2rem" }}
+              style={{ marginRight: "6rem" }}
               src="/images/talabat.svg"
               alt=""
             />

@@ -11,7 +11,6 @@ import {
 // import { section } from "./style";
 
 const OrderManager = () => {
-  const location = useLocation();
   const images = [
     "/images/automating-ordering.svg",
     "/images/seamless-operation.svg",
@@ -69,6 +68,8 @@ const OrderManager = () => {
       image: "/images/real-time-visibility-2.svg",
     },
   };
+
+  const location = ["Home", "Products", "Order Manager"];
 
   return (
     <>

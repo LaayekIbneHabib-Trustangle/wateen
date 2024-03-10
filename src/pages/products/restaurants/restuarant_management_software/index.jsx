@@ -11,8 +11,6 @@ import {
 // import { section } from "./style";
 
 const RestaurantManagementSoftware = () => {
-  const location = useLocation();
-
   const images = [
     "/images/boosting-restaurant-efficiency.svg",
     "/images/user-friendly-system.svg",
@@ -62,6 +60,8 @@ const RestaurantManagementSoftware = () => {
       image: "/images/cost-savings2.svg",
     },
   };
+
+  const location = ["Home", "Products", "Restaurant Management Software"];
 
   return (
     <>

@@ -11,7 +11,6 @@ import {
 // import { section } from "./style";
 
 const InventoryManagement = () => {
-  const location = useLocation();
   const images = [
     "/images/accurate-inventory-tracking.svg",
     "/images/minimizing-costs-maximizing-profits.svg",
@@ -68,6 +67,8 @@ const InventoryManagement = () => {
       image: "/images/improved-efficiency.svg",
     },
   };
+
+  const location = ["Home", "Products", "Inventory Management"];
 
   return (
     <>

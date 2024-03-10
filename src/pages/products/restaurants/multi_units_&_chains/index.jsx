@@ -11,7 +11,6 @@ import {
 // import { section } from "./style";
 
 const MultiUnitsAndChains = () => {
-  const location = useLocation();
   const images = [
     "/images/efficient-operations.svg",
     "/images/centralized-performance-tracking.svg",
@@ -60,6 +59,8 @@ const MultiUnitsAndChains = () => {
       image: "/images/increased-visibility.svg",
     },
   };
+
+  const location = ["Home", "Products", "Multi Units & Chains"];
 
   return (
     <>

@@ -10,8 +10,6 @@ import {
 } from "../../../../components";
 
 const ExpensesTracking = () => {
-  const location = useLocation();
-
   const images = [
     "/images/budget-optimization.svg",
     "/images/clear-financial-picture.svg",
@@ -58,6 +56,8 @@ const ExpensesTracking = () => {
       image: "/images/cost-savings.svg",
     },
   };
+
+  const location = ["Home", "Products", "Expenses Tracking"];
 
   return (
     <>

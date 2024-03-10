@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { HeroSecondary, RequestADemo, Wrapper } from "../../components";
 
 const AboutUs = () => {
-  const location = useLocation();
+  const location = ["Home", "Resources", "About Us"];
 
   return (
     <>

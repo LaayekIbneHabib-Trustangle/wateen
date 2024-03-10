@@ -11,7 +11,6 @@ import {
 // import { section } from "./style";
 
 const ARManager = () => {
-  const location = useLocation();
   const images = [
     "/images/intuitive-cookbook-management.svg",
     "/images/seamless-recipe-search.svg",
@@ -68,6 +67,8 @@ const ARManager = () => {
       image: "/images/customization-options.svg",
     },
   };
+
+  const location = ["Home", "Products", "AR Manager"];
 
   return (
     <>

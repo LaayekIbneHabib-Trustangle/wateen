@@ -1,5 +1,4 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import {
   Wrapper,
   HeroSecondary,
@@ -11,7 +10,7 @@ import { Section } from "./style";
 
 const data1 = [
   // { img: "/images/account-receivable-automation.svg" },
-  { img: "/images/platform-animation.gif" },
+  { vid: "/videos/laptop-animation.mp4" },
   { h2: "Order Manager" },
   { h3: "For Chefs and OPS Managers" },
   {
@@ -58,7 +57,7 @@ const data3 = [
   },
   {
     ul: [
-      ["/images/clear-visibility.svg", "Clear visibility"],
+      ["/images/clear-visibility-icon.svg", "Clear visibility"],
       ["/images/easy-payment.svg", "Easy payment"],
       [
         "/images/quickbooks-online-integration-orange.svg",
@@ -69,7 +68,7 @@ const data3 = [
 ];
 
 const Restaurants = () => {
-  const location = useLocation();
+  const location = ["Home", "Solutions", "Restaurants"];
 
   return (
     <>
@@ -91,11 +90,12 @@ const Restaurants = () => {
           >
             <MediaBlock
               theme="#FF7600"
-              img={data1?.[0]?.img}
+              vid={data1?.[0]?.vid}
               h2={data1?.[1]?.h2}
               h3={data1?.[2]?.h3}
               p={data1?.[3]?.p}
               ul={data1?.[4]?.ul}
+              loc="/order-manager"
             />
           </div>
         </Wrapper>
@@ -118,6 +118,7 @@ const Restaurants = () => {
               ul={data2?.[4]?.ul}
               row={data2?.[5]?.row}
               btnClr={data2?.[6]?.btnClr}
+              loc="/invoice-manager"
             />
           </div>
         </Wrapper>
@@ -138,6 +139,7 @@ const Restaurants = () => {
               h3={data3?.[2]?.h3}
               p={data3?.[3]?.p}
               ul={data3?.[4]?.ul}
+              loc="/a-p-manager"
             />
           </div>
         </Wrapper>

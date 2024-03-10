@@ -9,7 +9,6 @@ import {
 } from "../../../../components";
 
 const InvoiceManager = () => {
-  const location = useLocation();
   const images = [
     "/images/streamline-invoice-management.svg",
     "/images/enhancing-efficiency-&-accuracy.svg",
@@ -35,6 +34,8 @@ const InvoiceManager = () => {
     "Secure Invoice Integration",
     "Auto-Invoice Generation",
   ];
+
+  const location = ["Home", "Products", "Invoice Manager"];
 
   return (
     <>

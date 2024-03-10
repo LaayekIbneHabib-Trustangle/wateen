@@ -4,7 +4,7 @@ export const Box = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: url(/images/footer-bg.png) no-repeat;
+  background: url(/images/footer-bg.png) no-repeat fixed;
   background-size: cover;
 
   @media (max-width: 1080px) {

@@ -50,13 +50,14 @@ export const Primary = styled.div`
   ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    max-width: 50rem;
     gap: 1rem;
-    max-width: 40rem;
     flex-wrap: wrap;
   }
 
   li {
-    max-width: 35rem;
+    width: 23rem;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -81,21 +82,13 @@ export const Secondary = styled.div`
     width: 45rem;
   }
 
-  .laptop {
-    width: 63rem;
-    position: absolute;
-    z-index: 0;
-    top: -3rem;
-    left: -9rem;
-  }
-
   p {
     color: #242424;
     text-align: center;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 117.9%;
+    margin-top: -4rem;
   }
 
   @media (max-width: 1080px) {
@@ -107,20 +100,11 @@ export const Secondary = styled.div`
   @media (max-width: 580px) {
     .screen {
       width: 70vw;
-      position: absolute;
-      z-index: 0;
-      top: 12rem;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .laptop {
-      width: 100vw;
-      position: absolute;
-      z-index: 0;
-      top: 12rem;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      // position: absolute;
+      // z-index: 0;
+      // top: 12rem;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
     }
   }
 `;

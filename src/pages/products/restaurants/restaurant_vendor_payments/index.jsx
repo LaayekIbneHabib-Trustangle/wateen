@@ -11,8 +11,6 @@ import {
 // import { section } from "./style";
 
 const RestaurantVendorPayments = () => {
-  const location = useLocation();
-
   const images = [
     "/images/intuitive-cookbook-management.svg",
     "/images/seamless-recipe-search.svg",
@@ -69,6 +67,8 @@ const RestaurantVendorPayments = () => {
       image: "/images/customization-options.svg",
     },
   };
+
+  const location = ["Home", "Products", "Restaurant Vendor Payments"];
 
   return (
     <>

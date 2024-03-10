@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Box, Primary, Secondary } from "./style";
 import { AnimatedButton } from "../";
 
@@ -9,7 +10,9 @@ const MediaBlock = (props) => {
     <>
       <Box flxDir={props?.row}>
         <Primary theme={props?.theme}>
-          <h2>{props?.h2}</h2>
+          <h2>
+            {props?.h2} <span style={{ color: "#52006A" }}>{props?.span}</span>
+          </h2>
           <h3>{props?.h3}</h3>
           <p>{props?.p}</p>
           <ul>
@@ -30,7 +33,12 @@ const MediaBlock = (props) => {
               <span>{props?.ul?.[3]?.[1]}</span>
             </li>
           </ul>
-          <AnimatedButton bg={props?.btnClr} name="Learn More‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎" />
+          <Link to={props?.loc}>
+            <AnimatedButton
+              bg={props?.btnClr}
+              name="Learn More‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎"
+            />
+          </Link>
         </Primary>
         <Secondary>
           <div
@@ -41,16 +49,12 @@ const MediaBlock = (props) => {
               gap: "6rem",
             }}
           >
-            <img className="laptop" src="/images/laptop.png" alt="" />
-            <img
-              className="screen"
-              style={{
-                position: "relative",
-                zIndex: "1",
-              }}
-              src={props?.img}
-              alt=""
-            />
+            {props?.vid ? (
+              <video className="screen" src={props?.vid} autoPlay loop />
+            ) : (
+              <img className="screen" src={props?.img} alt="" />
+            )}
+
             <p>{props?.caption}</p>
           </div>
         </Secondary>

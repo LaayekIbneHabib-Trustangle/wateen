@@ -70,7 +70,8 @@ const APManager = () => {
     },
   };
 
-  const location = useLocation();
+  const location = ["Home", "Products", "AP Manager"];
+
   return (
     <>
       <section>

@@ -21,6 +21,8 @@ const Blogs = () => {
     setActiveButton(button);
   };
 
+  const location = ["Home", "Resources", "Blogs"];
+
   return (
     <>
       <section>

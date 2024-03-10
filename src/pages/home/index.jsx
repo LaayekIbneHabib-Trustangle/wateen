@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Wrapper,
   AnimatedButton,
@@ -24,8 +25,12 @@ const Home = () => {
               </h1>
               <h2>Marketplace and Inventory Management Platform</h2>
               <div>
-                <AnimatedButton name="I'm a distributor" theme="#52006a" />
-                <AnimatedButton name="I'm a restaurant" theme="#ff7600" />
+                <Link to="distributors">
+                  <AnimatedButton name="I'm a distributor" theme="#52006a" />
+                </Link>
+                <Link to="restaurants">
+                  <AnimatedButton name="I'm a restaurant" theme="#ff7600" />
+                </Link>
               </div>
             </Primary>
             <Seconary>
@@ -183,6 +188,7 @@ const Home = () => {
               gap: "4rem",
               flexWrap: "wrap",
               marginTop: "3rem",
+              paddingBottom: "4rem",
             }}
           >
             <StandardCard
@@ -209,7 +215,7 @@ const Home = () => {
             style={{
               display: "flex",
               justifyContent: "center",
-              marginTop: "6rem",
+              marginTop: "3rem",
             }}
           >
             <Brands />
@@ -222,7 +228,7 @@ const Home = () => {
             style={{
               display: "flex",
               justifyContent: "center",
-              marginTop: "6rem",
+              marginTop: "3rem",
             }}
           >
             <RequestADemo />

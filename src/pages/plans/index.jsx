@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
 import { Wrapper, HeroSecondary } from "../../components";
 import "./style.css";
 
@@ -9,7 +8,7 @@ const Plans = () => {
   const [number, setNumber] = useState("1");
   const [currency, setCurrency] = useState("SAR");
 
-  const location = useLocation();
+  const location = ["Home", "Plans"];
 
   const handleClick = (button) => {
     setActiveButton(button);

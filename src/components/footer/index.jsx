@@ -31,59 +31,73 @@ const Footer = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>Restaurants</p>
-                      </td>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>Suppliers</p>
-                      </td>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>About</p>
-                      </td>
+                      <Link to="restaurants">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>Restaurants</p>
+                        </td>
+                      </Link>
+                      <Link to="accounting-&-e-r-p-systems-suppliers">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>Suppliers</p>
+                        </td>
+                      </Link>
+                      <Link to="about-us">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>About</p>
+                        </td>
+                      </Link>
                     </tr>
                     <tr>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>Distributors</p>
-                      </td>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>Buyers</p>
-                      </td>
-                      <td>
+                      <Link to="distributors">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>Distributors</p>
+                        </td>
+                      </Link>
+                      <Link to="p-o-s">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>Buyers</p>
+                        </td>
+                      </Link>
+                      {/* <td>
                         <img src="/images/side-arrow.svg" alt="" />
                         <p>Careers</p>
-                      </td>
+                      </td> */}
+                      <Link to="request-a-demo">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>Request a Demo</p>
+                        </td>
+                      </Link>
                     </tr>
+
                     <tr>
                       <td></td>
                       <td></td>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>Request a Demo</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td></td>
-                      <td>
-                        <img src="/images/side-arrow.svg" alt="" />
-                        <p>Contact Us</p>
-                      </td>
+                      <Link to="lets-talk">
+                        <td>
+                          <img src="/images/side-arrow.svg" alt="" />
+                          <p>Contact Us</p>
+                        </td>
+                      </Link>
                     </tr>
                   </tbody>
                 </table>
               </QuickAccess>
             </Primary>
             <Secondary>
-              <p>© 2023 Wateen | Customer Support: 1-975-522-4865</p>
               <p>
-                <Link to="">Privacy Policy</Link>
+                © 2023 Wateen | Customer Support:{" "}
+                <a href="tel:19755224865">1-975-522-4865</a>
+              </p>
+              <p>
+                <Link to="privacy-policy">Privacy Policy</Link>
                 <span>.</span>
-                <Link to="">Terms & Conditions</Link>
+                <Link to="terms-&-conditions">Terms & Conditions</Link>
               </p>
               <ul>
                 <li>

@@ -11,7 +11,6 @@ import {
 // import { section } from "./style";
 
 const PurchasingAndOrderManagement = () => {
-  const location = useLocation();
   const images = [
     "/images/procurement-cost-savings.svg",
     "/images/swift-response-to-requests.svg",
@@ -68,6 +67,8 @@ const PurchasingAndOrderManagement = () => {
       image: "/images/increased-visibility.svg",
     },
   };
+
+  const location = ["Home", "Products", "Purchasing & Order Management"];
 
   return (
     <>
