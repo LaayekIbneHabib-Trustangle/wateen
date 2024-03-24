@@ -68,7 +68,12 @@ const RestaurantVendorPayments = () => {
     },
   };
 
-  const location = ["Home", "Products", "Restaurant Vendor Payments"];
+  const location = [
+    "Home",
+    "Products",
+    "Restaurants",
+    "Restaurant Vendor Payments",
+  ];
 
   return (
     <>

@@ -60,7 +60,7 @@ const MultiUnitsAndChains = () => {
     },
   };
 
-  const location = ["Home", "Products", "Multi Units & Chains"];
+  const location = ["Home", "Products", "Restaurants", "Multi Units & Chains"];
 
   return (
     <>

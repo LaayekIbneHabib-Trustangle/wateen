@@ -26,6 +26,7 @@ import IPAAS from "./integrations/buyers/ipaas";
 import AboutUs from "./about_us";
 import NotFound from "./404";
 import RequestADemo from "./request_a_demo";
+import Plans_2 from "./plans_2";
 
 export {
   Home,
@@ -56,4 +57,5 @@ export {
   AboutUs,
   NotFound,
   RequestADemo,
+  Plans_2,
 };

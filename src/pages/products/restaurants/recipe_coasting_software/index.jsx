@@ -68,7 +68,12 @@ const RecipeCoastingSoftware = () => {
     },
   };
 
-  const location = ["Home", "Products", "Recipe Coasting Software"];
+  const location = [
+    "Home",
+    "Products",
+    "Restaurants",
+    "Recipe Coasting Software",
+  ];
 
   return (
     <>

@@ -12,6 +12,7 @@ import HeroSecondary from "./hero_secondary";
 import Benefits from "./benefits";
 import AlternateCards from "./alternate_cards";
 import Bars from "./bars";
+import Dropdown from "./dropdown";
 
 export {
   Navbar,
@@ -29,4 +30,5 @@ export {
   Benefits,
   AlternateCards,
   Bars,
+  Dropdown,
 };

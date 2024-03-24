@@ -57,7 +57,7 @@ const ExpensesTracking = () => {
     },
   };
 
-  const location = ["Home", "Products", "Expenses Tracking"];
+  const location = ["Home", "Products", "Restaurants", "Expenses Tracking"];
 
   return (
     <>

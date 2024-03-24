@@ -101,27 +101,39 @@ const Footer = () => {
               </p>
               <ul>
                 <li>
-                  <Link to="">
+                  <Link to="http://twitter.com/wateen_platform" target="_blank">
                     <img src="/images/twitter.svg" alt="" />
                   </Link>
                 </li>
                 <li>
-                  <Link to="">
+                  <Link
+                    to="https://instagram.com/wateen_platform?igshid=OGQ5ZDc2ODk2ZA=="
+                    target="_blank"
+                  >
                     <img src="/images/instagram.svg" alt="" />
                   </Link>
                 </li>
                 <li>
-                  <Link to="">
+                  <Link
+                    to="https://youtube.com/@Wateen_Platform?feature=shared"
+                    target="_blank"
+                  >
                     <img src="/images/youtube.svg" alt="" />
                   </Link>
                 </li>
                 <li>
-                  <Link to="">
+                  <Link
+                    to="https://www.facebook.com/profile.php?id=100091734840280&mibextid=D4KYlr"
+                    target="_blank"
+                  >
                     <img src="/images/facebook.svg" alt="" />
                   </Link>
                 </li>
                 <li>
-                  <Link to="">
+                  <Link
+                    to="https://sa.linkedin.com/company/wateen"
+                    target="_blank"
+                  >
                     <img src="/images/linkedin.svg" alt="" />
                   </Link>
                 </li>

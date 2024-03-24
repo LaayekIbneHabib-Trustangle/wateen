@@ -68,7 +68,12 @@ const PurchasingAndOrderManagement = () => {
     },
   };
 
-  const location = ["Home", "Products", "Purchasing & Order Management"];
+  const location = [
+    "Home",
+    "Products",
+    "Restaurants",
+    "Purchasing & Order Management",
+  ];
 
   return (
     <>

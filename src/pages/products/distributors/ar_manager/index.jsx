@@ -68,7 +68,7 @@ const ARManager = () => {
     },
   };
 
-  const location = ["Home", "Products", "AR Manager"];
+  const location = ["Home", "Products", "Distributors", "AR Manager"];
 
   return (
     <>

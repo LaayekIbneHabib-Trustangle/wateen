@@ -52,7 +52,7 @@ const OrderManager = () => {
       details: [
         "Eliminate the possibility of losing an order.",
         "Schedule orders in advance or use the ordering tool.",
-        "You will be provided with smart ordering suggestions that can help with quick and timely ordering.Since all entries are made in one place, it also eliminates the possibility of miscalculation or wrong orders being placed.",
+        "You will be provided with smart ordering suggestions that can help with quick and timely ordering.",
       ],
       image: "/images/eliminate-the-possibility-of-human-error.svg",
     },
@@ -69,7 +69,7 @@ const OrderManager = () => {
     },
   };
 
-  const location = ["Home", "Products", "Order Manager"];
+  const location = ["Home", "Products", "Restaurants", "Order Manager"];
 
   return (
     <>

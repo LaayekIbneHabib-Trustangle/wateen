@@ -68,7 +68,7 @@ const InventoryManagement = () => {
     },
   };
 
-  const location = ["Home", "Products", "Inventory Management"];
+  const location = ["Home", "Products", "Restaurants", "Inventory Management"];
 
   return (
     <>

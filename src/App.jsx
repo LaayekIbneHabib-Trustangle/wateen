@@ -30,6 +30,7 @@ import {
   AboutUs,
   NotFound,
   RequestADemo,
+  Plans_2,
 } from "./pages";
 
 const App = () => {
@@ -68,7 +69,7 @@ const App = () => {
         <Route path="/a-r-manager" element={<ARManager />} />
         <Route path="/blog" element={<Blogs />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
-        <Route path="/plans" element={<Plans />} />
+        <Route path="/plans" element={<Plans_2 />} />
         <Route path="/login" element={<Login />} />
         <Route path="/lets-talk" element={<LetsTalk />} />
         <Route

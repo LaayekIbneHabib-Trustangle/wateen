@@ -70,7 +70,7 @@ const APManager = () => {
     },
   };
 
-  const location = ["Home", "Products", "AP Manager"];
+  const location = ["Home", "Products", "Restaurants", "AP Manager"];
 
   return (
     <>

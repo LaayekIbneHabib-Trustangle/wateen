@@ -50,7 +50,7 @@ export const Hero = styled.div`
   h3 {
     color: #ffffff;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.15rem;
     font-style: normal;
     font-weight: 500;
     line-height: 3rem;
@@ -63,7 +63,7 @@ export const StyledList = styled.ul`
   align-items: center;
   gap: 1rem;
   border-radius: 28px;
-  border: 0.5px solid #ff32d7;
+  // border: 0.5px solid #ff32d7;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(30px);
   padding: 1rem 2rem 1rem 2rem;

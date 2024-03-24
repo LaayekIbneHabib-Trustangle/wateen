@@ -68,7 +68,7 @@ const CookbookSoftware = () => {
     },
   };
 
-  const location = ["Home", "Products", "Cookbook Software"];
+  const location = ["Home", "Products", "Restaurants", "Cookbook Software"];
 
   return (
     <>

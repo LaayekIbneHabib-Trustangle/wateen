@@ -61,7 +61,12 @@ const RestaurantManagementSoftware = () => {
     },
   };
 
-  const location = ["Home", "Products", "Restaurant Management Software"];
+  const location = [
+    "Home",
+    "Products",
+    "Restaurants",
+    "Restaurant Management Software",
+  ];
 
   return (
     <>
