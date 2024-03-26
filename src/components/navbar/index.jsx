@@ -1,8 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { Wrapper, StandardButton } from "..";
 import useStore from "../../store";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import {
   Menu,
@@ -54,6 +54,7 @@ const values = {
 const Navbar = () => {
   const { hoveredKey, handleHover, handleLeave } = useStore();
   const [sidenavOpen, setSidenavOpen] = useState(false);
+  const location = useLocation();
 
   const toggled = {
     display: sidenavOpen ? "block" : "none",
@@ -107,6 +108,10 @@ const Navbar = () => {
   // const inputString = "This Is An Example";
   // const modifiedString = addHyphenAndLowercase(inputString);
   // console.log(modifiedString);
+
+  useEffect(() => {
+    setSidenavOpen(false); // Close the menu whenever the route changes
+  }, [location]);
 
   return (
     <>

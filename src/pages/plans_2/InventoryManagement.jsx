@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Dropdown } from "../../components";
-import useCountryStore from "../../store";
+import useStore from "../../store";
 
 const InventoryManagement = () => {
   const [activeBtn, setActiveBtn] = useState("btn-1");
   const [location, setLocation] = useState(1);
-  const selectedCountry = useCountryStore((state) => state.selectedCountry);
+  const selectedCountry = useStore((state) => state.selectedCountry);
 
   const handleClick = (button) => {
     setActiveBtn(button);
