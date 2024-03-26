@@ -1,12 +1,35 @@
 import React, { useState } from "react";
 import { Dropdown } from "../../components";
+import useCountryStore from "../../store";
 
 const Marketplace = () => {
   const [activeBtn, setActiveBtn] = useState("btn-1");
+  const [location, setLocation] = useState(1);
+  const selectedCountry = useCountryStore((state) => state.selectedCountry);
 
   const handleClick = (button) => {
     setActiveBtn(button);
   };
+
+  function roundToDecimal(number, decimalPlaces) {
+    return Number(number.toFixed(decimalPlaces));
+  }
+
+  let suppliers;
+  let buyers;
+  (function calculatePricing() {
+    suppliers = 1;
+    suppliers = activeBtn == "btn-2" ? suppliers * 12 : suppliers;
+    suppliers = suppliers * location;
+    suppliers = selectedCountry === "USD" ? suppliers / 3.75 : suppliers;
+    suppliers = roundToDecimal(suppliers, 2);
+
+    buyers = 1;
+    buyers = activeBtn == "btn-2" ? buyers * 12 : buyers;
+    buyers = buyers * location;
+    buyers = selectedCountry === "USD" ? buyers / 3.75 : buyers;
+    buyers = roundToDecimal(buyers, 2);
+  })();
 
   return (
     <>
@@ -71,6 +94,7 @@ const Marketplace = () => {
               name=""
               id=""
               min="1"
+              onChange={(e) => setLocation(e.target.value)}
               style={{
                 border: "1px solid #B3B3B3",
                 maxWidth: "10rem",
@@ -153,8 +177,18 @@ const Marketplace = () => {
               Suppliers
             </h2>
             <div>
-              <h2 style={{ fontSize: "1.75rem", color: "#FF7600" }}>
-                01.00 SAR
+              <h2
+                style={{
+                  fontSize: "1.75rem",
+                  color: "#FF7600",
+                  textAlign: "center",
+                  display: "flex",
+                  justifyContent: "center",
+                  gap: ".75rem",
+                }}
+              >
+                {suppliers}
+                {selectedCountry === "USD" ? <p>USD</p> : <p>SAR</p>}
               </h2>
               <p style={{ textAlign: "center", fontSize: "1.25rem" }}>
                 Per Transaction
@@ -195,11 +229,21 @@ const Marketplace = () => {
                 color: "white",
               }}
             >
-              Suppliers
+              Buyers
             </h2>
             <div>
-              <h2 style={{ fontSize: "1.75rem", color: "#FF7600" }}>
-                01.00 SAR
+              <h2
+                style={{
+                  fontSize: "1.75rem",
+                  color: "#FF7600",
+                  textAlign: "center",
+                  display: "flex",
+                  justifyContent: "center",
+                  gap: ".75rem",
+                }}
+              >
+                {buyers}
+                {selectedCountry === "USD" ? <p>USD</p> : <p>SAR</p>}
               </h2>
               <p
                 style={{

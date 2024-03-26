@@ -1,12 +1,42 @@
 import React, { useState } from "react";
 import { Dropdown } from "../../components";
+import useCountryStore from "../../store";
 
 const InventoryManagement = () => {
   const [activeBtn, setActiveBtn] = useState("btn-1");
+  const [location, setLocation] = useState(1);
+  const selectedCountry = useCountryStore((state) => state.selectedCountry);
 
   const handleClick = (button) => {
     setActiveBtn(button);
   };
+
+  function roundToDecimal(number, decimalPlaces) {
+    return Number(number.toFixed(decimalPlaces));
+  }
+
+  let basic;
+  let advanced;
+  let premium;
+  (function calculatePricing() {
+    basic = 250;
+    basic = activeBtn == "btn-2" ? basic * 12 : basic;
+    basic = basic * location;
+    basic = selectedCountry === "USD" ? basic / 3.75 : basic;
+    basic = roundToDecimal(basic, 2);
+
+    advanced = 350;
+    advanced = activeBtn == "btn-2" ? advanced * 12 : advanced;
+    advanced = advanced * location;
+    advanced = selectedCountry === "USD" ? advanced / 3.75 : advanced;
+    advanced = roundToDecimal(advanced, 2);
+
+    premium = 450;
+    premium = activeBtn == "btn-2" ? premium * 12 : premium;
+    premium = premium * location;
+    premium = selectedCountry === "USD" ? premium / 3.75 : premium;
+    premium = roundToDecimal(premium, 2);
+  })();
 
   return (
     <>
@@ -71,6 +101,7 @@ const InventoryManagement = () => {
               name=""
               id=""
               min="1"
+              onChange={(e) => setLocation(e.target.value)}
               style={{
                 border: "1px solid #B3B3B3",
                 maxWidth: "10rem",
@@ -121,7 +152,12 @@ const InventoryManagement = () => {
           </div>
         </div>
 
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <div
             style={{
               backgroundImage: "url(/images/inventory-management-plan.svg)",
@@ -240,8 +276,17 @@ const InventoryManagement = () => {
                   <h2 style={{ color: "#52006A", fontSize: "1.75rem" }}>
                     Monthly
                   </h2>
-                  <h2 style={{ color: "#FF7600", fontSize: "1.75rem" }}>
-                    250 SAR
+                  <h2
+                    style={{
+                      color: "#FF7600",
+                      fontSize: "1.75rem",
+                      display: "flex",
+                      gap: ".75rem",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {basic}
+                    {selectedCountry === "USD" ? <p>USD</p> : <p>SAR</p>}
                   </h2>
                 </div>
               </div>
@@ -265,8 +310,17 @@ const InventoryManagement = () => {
                   <h2 style={{ color: "#52006A", fontSize: "1.75rem" }}>
                     Monthly
                   </h2>
-                  <h2 style={{ color: "#FF7600", fontSize: "1.75rem" }}>
-                    350 SAR
+                  <h2
+                    style={{
+                      color: "#FF7600",
+                      fontSize: "1.75rem",
+                      display: "flex",
+                      gap: ".75rem",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {advanced}
+                    {selectedCountry === "USD" ? <p>USD</p> : <p>SAR</p>}
                   </h2>
                 </div>
               </div>
@@ -290,8 +344,17 @@ const InventoryManagement = () => {
                   <h2 style={{ color: "#52006A", fontSize: "1.75rem" }}>
                     Monthly
                   </h2>
-                  <h2 style={{ color: "#FF7600", fontSize: "1.75rem" }}>
-                    450 SAR
+                  <h2
+                    style={{
+                      color: "#FF7600",
+                      fontSize: "1.75rem",
+                      display: "flex",
+                      gap: ".75rem",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {premium}
+                    {selectedCountry === "USD" ? <p>USD</p> : <p>SAR</p>}
                   </h2>
                 </div>
               </div>

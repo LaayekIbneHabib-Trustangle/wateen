@@ -1,9 +1,15 @@
 import React, { useState } from "react";
 import usaFlag from "/images/usa-flag.svg";
 import saudiArabiaFlag from "/images/saudi-arabia-flag.svg";
+import useCountryStore from "../../store";
 
 const Dropdown = () => {
-  const [selectedCountry, setSelectedCountry] = useState("");
+  // const [selectedCountry, setSelectedCountry] = useState("");
+  const selectedCountry = useCountryStore((state) => state.selectedCountry);
+  const setSelectedCountry = useCountryStore(
+    (state) => state.setSelectedCountry
+  );
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
