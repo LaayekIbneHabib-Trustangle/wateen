@@ -32,6 +32,8 @@ import {
   RequestADemo,
   Plans_2,
 } from "./pages";
+import PrivacyPolicy from "./pages/privacy-policy";
+import TermsAndConditions from "./pages/tearms&conditions";
 
 const App = () => {
   return (
@@ -71,6 +73,8 @@ const App = () => {
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/plans" element={<Plans_2 />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-&-conditions" element={<TermsAndConditions />} />
         <Route path="/lets-talk" element={<LetsTalk />} />
         <Route
           path="/accounting-&-e-r-p-systems-suppliers"

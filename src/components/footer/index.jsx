@@ -95,9 +95,9 @@ const Footer = () => {
                 <a href="tel:19755224865">1-975-522-4865</a>
               </p>
               <p>
-                <Link to="privacy-policy">Privacy Policy</Link>
+                <Link to="/privacy-policy">Privacy Policy</Link>
                 <span>.</span>
-                <Link to="terms-&-conditions">Terms & Conditions</Link>
+                <Link to="/terms-&-conditions">Terms & Conditions</Link>
               </p>
               <ul>
                 <li>
