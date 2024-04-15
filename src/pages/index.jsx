@@ -27,6 +27,8 @@ import AboutUs from "./about_us";
 import NotFound from "./404";
 import RequestADemo from "./request_a_demo";
 import Plans_2 from "./plans_2";
+import PrivacyPolicy from "./privacy-policy";
+import TermsAndConditions from "./tearms&conditions";
 
 export {
   Home,
@@ -58,4 +60,6 @@ export {
   NotFound,
   RequestADemo,
   Plans_2,
+  PrivacyPolicy,
+  TermsAndConditions,
 };
