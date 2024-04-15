@@ -2,7 +2,7 @@
   font-family: "Nunito";
   src: local("Nunito"),
     url("./fonts/Nunito-VariableFont_wght.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: bolder !important;
   font-style: normal;
 }
 
@@ -10,7 +10,7 @@
   font-family: "Nunito";
   src: local("Nunito"),
     url("./fonts/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
-  font-weight: normal;
+  // font-weight: normal;
   font-style: italic;
 }
 
@@ -49,7 +49,8 @@ button {
 
 .styled-list-item::before {
   content: "\2022";
-  color: #ff7600;
+  // color: #ff7600;
+  color: white;
   font-size: 1.2em;
   margin-right: 10px;
 }

@@ -8,7 +8,7 @@ import {
 } from "../../../../components";
 
 const Ecommerce = () => {
-  const location = useLocation();
+  const location = ["Home", "Intergrations", "Buyers", "Ecommerce"];
 
   return (
     <>

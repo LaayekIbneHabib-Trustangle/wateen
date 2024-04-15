@@ -6,7 +6,7 @@ const Brands = () => {
     <>
       <Box>
         <div>
-          <h2>
+          <h2 style={{ marginBottom: "-3rem" }}>
             <span
               style={{
                 fontWeight: "bold",
@@ -44,22 +44,22 @@ const Brands = () => {
           <div className="logos-slide">
             <img src="/images/hunger-station.svg" alt="" />
             <img
-              style={{ marginRight: "2rem" }}
+              style={{ marginRight: "1rem" }}
               src="/images/talabat.svg"
               alt=""
             />
             <img
-              style={{ marginRight: "6rem" }}
+              style={{ marginRight: "3rem" }}
               src="/images/to-you.svg"
               alt=""
             />
             <img
-              style={{ marginRight: "6rem" }}
+              style={{ marginRight: "3rem" }}
               src="/images/jahez.svg"
               alt=""
             />
             <img
-              style={{ marginRight: "4rem" }}
+              style={{ marginRight: "10rem" }}
               src="/images/mr-sool.svg"
               alt=""
             />

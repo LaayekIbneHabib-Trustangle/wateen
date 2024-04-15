@@ -12,59 +12,55 @@ import {
 
 const RecipeCoastingSoftware = () => {
   const images = [
-    "/images/intuitive-cookbook-management.svg",
-    "/images/seamless-recipe-search.svg",
-    "/images/taste-and-tell.svg",
-    "/images/convenient-recipe-printing-and-exporting.svg",
-    "/images/integration-with-external-services.svg",
-    "/images/creating-and-organizing-collections.svg",
-    "/images/recipe-sharing.svg",
-    "/images/personalized-recipe-customization.svg",
-    "/images/easy-recipe-access.svg",
-    "/images/meal-planning-and-nutrition-tracking-tools.svg",
+    "/images/intuitive-interface-for-customization.svg",
+    "/images/flexible-ingredient-adjustment.svg",
+    "/images/recipe-sharing-capabilities.svg",
+    "/images/nutritional-information-display.svg",
+    "/images/versatile-ingredient-option.svg",
+    "/images/recipe-recommendations.svg",
+    "/images/convenient-recipe-storage.svg",
+    "/images/advanced-recipe-search.svg",
   ];
 
   const captions = [
-    "Intuitive Cookbook Management",
-    "Seamless Recipe Search",
-    "Taste and Tell",
-    "Convenient Recipe Printing and Exporting",
-    "Integration with External Services",
-    "Creating and Organizing Collections",
-    "Recipe Sharing",
-    "Personalized Recipe Customization",
-    "Easy Recipe Access",
-    "Meal Planning and Nutrition Tracking Tools",
+    "Intuitive Interface for Customization",
+    "Flexible Ingredient Adjustment",
+    "Recipe Sharing Capabilities",
+    "Nutritional Information Display",
+    "Versatile Ingredient Options",
+    "Recipe Recommendations",
+    "Convenient Recipe Storage",
+    "Advanced Recipe Search",
   ];
 
   const forAlternateCards = {
     wateenSoftwareSoftware: {
       caption: "will help you!",
-      heading: "Wateen Cookbook Software",
+      heading: "Wateen Recipe Coasting Software",
       details:
-        "Wateen Cookbook software is an invaluable tool for anyone who loves to cook. It offers an easy way to store, organize, and share recipes. It also allows users to create custom meal plans and grocery lists. With cookbook software, home cooks can quickly search for recipes, find ingredients, and plan out a meal. The software also allows users to save their recipes for later use and share them with friends and family. Cookbook software is a great way to streamline the cooking process and make cooking easier and more enjoyable.",
-      image: "/images/wateen-cookbook-software.svg",
+        "Wateen Recipe costing software can help restaurants and other food-related businesses to increase their profits. This software allows businesses to easily calculate their cost of goods sold (COGS) so they know exactly how much they’re spending on ingredients. It also allows them to analyze the profitability of each recipe, which helps them determine which recipes are more cost-effective and which ones are more profitable. With this in-depth knowledge, businesses can make better decisions about their menu items, pricing, and portions. Additionally, recipe costing software can help businesses keep track of their inventory, so they don’t end up running out of ingredients in the middle of a busy shift. All in all, recipe costing software can be a great asset for any food-related business.",
+      image: "/images/wateen-recipe-coasting-software.svg",
     },
 
     clearVisibility: {
-      heading: "Improved Accuracy",
+      heading: "Streamlined Menu Planning",
       details:
-        "Wateen Cookbook software eliminates the need to copy and paste recipes from multiple sources, resulting in recipes that are more accurate and up to date.",
-      image: "/images/improved-accuracy.svg",
+        "Wateen Recipe costing software allows you to easily create and manage a menu to help you plan meals more efficiently. It also allows you to quickly adjust prices to account for ingredient costs and market conditions.",
+      image: "/images/streamlined-menu-planning.svg",
     },
 
     increasedEfficiency: {
-      heading: "Increased Efficiency",
+      heading: "Improved Inventory Management",
       details:
-        "Wateen Cookbook software helps reduce the amount of time users spend searching for and organizing their recipes, saving them time and energy.",
-      image: "/images/increased-efficiency.svg",
+        "With recipe costing software, you can easily track your inventory levels and adjust prices accordingly. This can help reduce waste and increase profits.",
+      image: "/images/improved-inventory-management.svg",
     },
 
     customizationOptions: {
-      heading: "Customization Options",
+      heading: "Enhanced Food Costing",
       details:
-        "Wateen Cookbook software provides users with the ability to customize their recipes to their own tastes, such as adding ingredients, adjusting cooking times, and changing serving sizes.",
-      image: "/images/customization-options.svg",
+        "Wateen Recipe costing software can provide detailed food cost information, including ingredient costs and the cost of preparation. This information can help you make more informed decisions about how to price your menu items and adjust your menu accordingly.",
+      image: "/images/enhanced-food-costing.svg",
     },
   };
 
@@ -96,7 +92,7 @@ const RecipeCoastingSoftware = () => {
             color: "#FF7600",
           }}
         >
-          Wateen Cookbook Software
+          Wateen Recipe Coasting Software
         </p>
         <h1
           style={{

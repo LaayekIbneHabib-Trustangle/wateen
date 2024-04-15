@@ -89,6 +89,7 @@ const CookbookSoftware = () => {
           style={{
             fontSize: "1.5rem",
             color: "#FF7600",
+            fontWeight: "700",
           }}
         >
           Wateen Cookbook Software
@@ -97,6 +98,7 @@ const CookbookSoftware = () => {
           style={{
             fontSize: "3rem",
             color: "#52006A",
+            fontWeight: "800",
           }}
         >
           Offers Some Significant Benefits

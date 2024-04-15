@@ -7,6 +7,7 @@ import {
   RequestADemo,
   Benefits,
 } from "../../../../components";
+import "./style.css";
 
 const InvoiceManager = () => {
   const images = [
@@ -58,7 +59,7 @@ const InvoiceManager = () => {
             color: "#FF7600",
           }}
         >
-          Wateen Cookbook Software
+          Invoice Manager
         </p>
         <h1
           style={{
@@ -224,7 +225,7 @@ const InvoiceManager = () => {
           </div>
         </Wrapper>
       </section>
-      <section style={{ marginBottom: "50rem" }}>
+      <section id="invoice-mangager-last-sec" style={{ marginBottom: "55rem" }}>
         <Wrapper>
           <div
             style={{

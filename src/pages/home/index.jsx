@@ -34,7 +34,41 @@ const Home = () => {
               </div>
             </Primary>
             <Seconary>
-              <img src="/images/hero-widget.svg" alt="" />
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  // background: "red",
+                  // width: "61rem",
+                  // height: "30rem",
+                }}
+              >
+                <img
+                  style={{
+                    width: "19.5rem",
+                    height: "15.5rem",
+                    margin: "-1rem .5rem 0 0",
+                  }}
+                  src="/images/this-spot-awaits-you.gif"
+                  alt=""
+                />
+                <img
+                  style={{
+                    position: "relative",
+                    zIndex: "1",
+                    width: "14.5rem",
+                    height: "13rem",
+                    margin: ".5rem -31.5rem 0 0",
+                  }}
+                  src="/images/logo-effect.gif"
+                  alt=""
+                />
+                <img
+                  style={{ width: "40rem", height: "40rem" }}
+                  src="/images/hero-widget.svg"
+                  alt=""
+                />
+              </div>
             </Seconary>
           </Hero>
         </Wrapper>

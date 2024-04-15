@@ -1,6 +1,10 @@
 import React from "react";
+import "./style.css";
+import { useLocation } from "react-router-dom";
 
 const AlternateCards = ({ forAlternateCards }) => {
+  const location = useLocation();
+
   return (
     <>
       {Object.values(forAlternateCards).map((item, index) => (
@@ -31,6 +35,7 @@ const AlternateCards = ({ forAlternateCards }) => {
                   color: "#52006A",
                   fontSize: "2.5rem",
                   textTransform: "capitalize",
+                  fontWeight: "800",
                 }}
               >
                 {item.heading}
@@ -49,22 +54,35 @@ const AlternateCards = ({ forAlternateCards }) => {
                 </p>
                 <ul
                   style={{
+                    marginLeft: "1.75rem",
                     display: Array.isArray(item.details) ? "block" : "none",
                   }}
                 >
                   {Object.values(item.details).map((item) => (
-                    <li
-                      style={{
-                        color: "#000",
-                        fontSize: "1.5rem",
-                        marginTop: "1rem",
-                      }}
-                    >
-                      {item}
-                    </li>
+                    <>
+                      <li
+                        style={{
+                          color: "#000",
+                          fontSize: "1.5rem",
+                          marginTop: "1rem",
+                        }}
+                      >
+                        {item}
+                      </li>
+                    </>
                   ))}
                 </ul>
               </div>
+              <p
+                style={{
+                  fontSize: "1.5rem",
+                  marginTop: "2rem",
+                  fontWeight: "700",
+                  color: "#52006A",
+                }}
+              >
+                {item.spcil}
+              </p>
             </div>
             <div>
               <img src={item.image} alt="" />

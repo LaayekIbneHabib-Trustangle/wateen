@@ -8,7 +8,12 @@ import {
 } from "../../../../components";
 
 const AccountingAndERPSytemsBuyers = () => {
-  const location = useLocation();
+  const location = [
+    "Home",
+    "Intergrations",
+    "Buyers",
+    "Accounting & ERP Systems",
+  ];
 
   return (
     <>

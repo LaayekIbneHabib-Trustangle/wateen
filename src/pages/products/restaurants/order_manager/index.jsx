@@ -9,6 +9,7 @@ import {
   AlternateCards,
 } from "../../../../components";
 // import { section } from "./style";
+import "./style.css";
 
 const OrderManager = () => {
   const images = [
@@ -54,6 +55,8 @@ const OrderManager = () => {
         "Schedule orders in advance or use the ordering tool.",
         "You will be provided with smart ordering suggestions that can help with quick and timely ordering.",
       ],
+      spcil:
+        "Since all entries are made in one place, it also eliminates the possibility of miscalculation or wrong orders being placed.",
       image: "/images/eliminate-the-possibility-of-human-error.svg",
     },
 
@@ -94,14 +97,16 @@ const OrderManager = () => {
         >
           Faster access and easier
         </p>
-        <h1
+        <h2
           style={{
             fontSize: "3rem",
             color: "#52006A",
+            fontWeight: "bolder",
+            // fontFamily: "Nunito",
           }}
         >
           Shopping to All Suppliers in One App
-        </h1>
+        </h2>
         <div
           style={{
             margin: "0rem 0 0rem 0",

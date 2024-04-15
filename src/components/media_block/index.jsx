@@ -10,10 +10,10 @@ const MediaBlock = (props) => {
     <>
       <Box flxDir={props?.row}>
         <Primary theme={props?.theme}>
-          <h2>
+          <h2 style={{ fontWeight: "bolder", marginBottom: "-1.5rem" }}>
             {props?.h2} <span style={{ color: "#52006A" }}>{props?.span}</span>
           </h2>
-          <h3>{props?.h3}</h3>
+          <h3 style={{ marginBottom: "-2rem" }}>{props?.h3}</h3>
           <p>{props?.p}</p>
           <ul>
             <li>

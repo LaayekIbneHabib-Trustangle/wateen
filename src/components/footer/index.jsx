@@ -31,66 +31,66 @@ const Footer = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <Link to="restaurants">
-                        <td>
+                      <td>
+                        <Link to="restaurants">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>Restaurants</p>
-                        </td>
-                      </Link>
-                      <Link to="accounting-&-e-r-p-systems-suppliers">
-                        <td>
+                        </Link>
+                      </td>
+                      <td>
+                        <Link to="accounting-&-e-r-p-systems-suppliers">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>Suppliers</p>
-                        </td>
-                      </Link>
-                      <Link to="about-us">
-                        <td>
+                        </Link>
+                      </td>
+                      <td>
+                        <Link to="about-us">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>About</p>
-                        </td>
-                      </Link>
+                        </Link>
+                      </td>
                     </tr>
                     <tr>
-                      <Link to="distributors">
-                        <td>
+                      <td>
+                        <Link to="distributors">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>Distributors</p>
-                        </td>
-                      </Link>
-                      <Link to="p-o-s">
-                        <td>
+                        </Link>
+                      </td>
+                      <td>
+                        <Link to="p-o-s">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>Buyers</p>
-                        </td>
-                      </Link>
+                        </Link>
+                      </td>
                       {/* <td>
                         <img src="/images/side-arrow.svg" alt="" />
                         <p>Careers</p>
                       </td> */}
-                      <Link to="request-a-demo">
-                        <td>
+                      <td>
+                        <Link to="request-a-demo">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>Request a Demo</p>
-                        </td>
-                      </Link>
+                        </Link>
+                      </td>
                     </tr>
 
                     <tr>
                       <td></td>
                       <td></td>
-                      <Link to="lets-talk">
-                        <td>
+                      <td>
+                        <Link to="lets-talk">
                           <img src="/images/side-arrow.svg" alt="" />
                           <p>Contact Us</p>
-                        </td>
-                      </Link>
+                        </Link>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
               </QuickAccess>
             </Primary>
             <Secondary>
-              <p>
+              <p className="terms&conditions">
                 © 2023 Wateen | Customer Support:{" "}
                 <a href="tel:19755224865">1-975-522-4865</a>
               </p>

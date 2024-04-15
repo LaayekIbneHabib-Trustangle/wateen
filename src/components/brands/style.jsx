@@ -47,6 +47,6 @@ export const Box = styled.div`
 
   .logos-slide img {
     height: 6rem;
-    margin: 0 4rem;
+    margin: 0 2rem;
   }
 `;

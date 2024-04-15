@@ -21,6 +21,12 @@ export const Section = styled.section`
   &:last-of-type {
     margin-bottom: 55rem;
   }
+
+  @media (max-width: 1080px) {
+    &:last-of-type {
+      margin-bottom: 35rem;
+    }
+  }
 `;
 
 export const Hero = styled.div`
@@ -37,10 +43,22 @@ export const Primary = styled.div`
   .wifi-ani {
     position: relative;
     top: 3.4rem;
-    left: 27.25rem;
+    left: 27.25rem !important;
     width: 7rem;
     margin: -6rem 0 0 0;
     transform: rotate(30deg);
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 0) {
+    .wifi-ani {
+      left: 27.25rem !important;
+    }
+  }
+
+  @-moz-document url-prefix() {
+    .wifi-ani {
+      left: 28.5rem !important;
+    }
   }
 
   h1 {
@@ -96,8 +114,9 @@ export const Primary = styled.div`
 `;
 
 export const Seconary = styled.div`
-  width: 61rem;
-  height: 40rem;
+  display: flex;
+  // width: "61rem",
+  // height: "30rem",
 
   img {
     width: 100%;

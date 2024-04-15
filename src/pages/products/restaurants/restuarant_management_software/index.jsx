@@ -89,12 +89,13 @@ const RestaurantManagementSoftware = () => {
             color: "#FF7600",
           }}
         >
-          Wateen Cookbook Software
+          Wateen Restaurant Management Software
         </p>
         <h1
           style={{
             fontSize: "3rem",
             color: "#52006A",
+            fontWeight: "800",
           }}
         >
           Offers Some Significant Benefits

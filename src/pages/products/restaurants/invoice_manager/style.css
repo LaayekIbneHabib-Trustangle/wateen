@@ -1,0 +1,5 @@
+@media (max-width: 1080px) {
+  section:last-of-type {
+    margin-bottom: 35rem !important;
+  }
+}

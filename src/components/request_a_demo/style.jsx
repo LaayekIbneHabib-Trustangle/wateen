@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
+  margin-top: -5rem;
   background-image: url(/images/request-a-demo-bg.svg);
   background-size: cover;
   // background-color: #52006a;

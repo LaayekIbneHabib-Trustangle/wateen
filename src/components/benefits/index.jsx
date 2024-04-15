@@ -23,7 +23,7 @@ const Benefits = ({ images, captions }) => {
                 : "rgba(255, 119, 1, 0.05)",
           }}
         >
-          <img width="60rem" height="60rem" src={image} alt="" />
+          <img width="100rem" height="60rem" src={image} alt="" />
           <p
             style={{ fontSize: "1.5rem", fontWeight: "600", color: "#52006A" }}
           >

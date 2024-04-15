@@ -10,6 +10,7 @@ export const Box = styled.div`
   @media (max-width: 1080px) {
     border-top-right-radius: 3rem;
     border-top-left-radius: 3rem;
+    background-position: center;
   }
 `;
 
@@ -19,7 +20,7 @@ export const Content = styled.div`
   height: 40rem;
 
   @media (max-width: 1080px) {
-    height: 50rem;
+    height: 25rem;
   }
 `;
 
@@ -53,6 +54,11 @@ export const About = styled.div`
 
     img {
       width: 16rem;
+      margin-top: 3rem;
+    }
+
+    p {
+      display: none;
     }
   }
 `;
@@ -121,9 +127,15 @@ export const Secondary = styled.div`
   }
 
   @media (max-width: 1080px) {
-    height: 45%;
+    height: 37.5%;
     flex-direction: column-reverse;
     gap: 2rem;
     padding: 4rem 0 2rem 0;
+  }
+
+  @media (max-width: 452px) {
+    p {
+      font-size: 3.5vw;
+    }
   }
 `;

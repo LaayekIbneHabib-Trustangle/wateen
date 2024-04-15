@@ -21,13 +21,13 @@ const Marketplace = () => {
     suppliers = 1;
     suppliers = activeBtn == "btn-2" ? suppliers * 12 : suppliers;
     suppliers = suppliers * location;
-    suppliers = selectedCountry === "USD" ? suppliers / 3.75 : suppliers;
+    suppliers = selectedCountry === "USD" ? suppliers / 1 : suppliers;
     suppliers = roundToDecimal(suppliers, 2);
 
     buyers = 1;
     buyers = activeBtn == "btn-2" ? buyers * 12 : buyers;
     buyers = buyers * location;
-    buyers = selectedCountry === "USD" ? buyers / 3.75 : buyers;
+    buyers = selectedCountry === "USD" ? buyers / 1 : buyers;
     buyers = roundToDecimal(buyers, 2);
   })();
 

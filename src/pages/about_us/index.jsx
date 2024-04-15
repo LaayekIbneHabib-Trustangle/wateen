@@ -29,7 +29,7 @@ const AboutUs = () => {
               style={{
                 color: "#FF7600",
                 fontSize: "1.5rem",
-                fontWeight: "400",
+                fontWeight: "700",
               }}
             >
               Will help you!

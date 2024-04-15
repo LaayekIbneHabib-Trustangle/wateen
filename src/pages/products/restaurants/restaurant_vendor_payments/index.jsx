@@ -12,59 +12,59 @@ import {
 
 const RestaurantVendorPayments = () => {
   const images = [
-    "/images/intuitive-cookbook-management.svg",
-    "/images/seamless-recipe-search.svg",
-    "/images/taste-and-tell.svg",
-    "/images/convenient-recipe-printing-and-exporting.svg",
-    "/images/integration-with-external-services.svg",
-    "/images/creating-and-organizing-collections.svg",
-    "/images/recipe-sharing.svg",
-    "/images/personalized-recipe-customization.svg",
-    "/images/easy-recipe-access.svg",
-    "/images/meal-planning-and-nutrition-tracking-tools.svg",
+    "/images/timely-and-accurate-payments.svg",
+    "/images/fast-and-accurate-payment-processing.svg",
+    "/images/cost-effective-payment-processing.svg",
+    "/images/secure-payment-system.svg",
+    "/images/payment-tracking-and-reporting.svg",
+    "/images/automated-data-entry.svg",
+    "/images/transparent-payment-audit-trial.svg",
+    "/images/enhanced-vendor-staff-communication.svg",
+    "/images/online-invoice-submission.svg",
+    "/images/seamless-integration.svg",
   ];
 
   const captions = [
-    "Intuitive Cookbook Management",
-    "Seamless Recipe Search",
-    "Taste and Tell",
-    "Convenient Recipe Printing and Exporting",
-    "Integration with External Services",
-    "Creating and Organizing Collections",
-    "Recipe Sharing",
-    "Personalized Recipe Customization",
-    "Easy Recipe Access",
-    "Meal Planning and Nutrition Tracking Tools",
+    "Timely and Accurate Payments",
+    "Fast and Accurate Payment Processing",
+    "Cost-Effective Payment Processing",
+    "Secure Payment System",
+    "Payment Tracking and Reporting",
+    "Automated Data Entry",
+    "Transparent Payment Audit Trail",
+    "Enhanced Vendor-Staff Communication",
+    "Online Invoice Submission",
+    "Seamless Integration",
   ];
 
   const forAlternateCards = {
     wateenSoftwareSoftware: {
       caption: "will help you!",
-      heading: "Wateen Cookbook Software",
+      heading: "Wateen Multi Units and Chains Software",
       details:
-        "Wateen Cookbook software is an invaluable tool for anyone who loves to cook. It offers an easy way to store, organize, and share recipes. It also allows users to create custom meal plans and grocery lists. With cookbook software, home cooks can quickly search for recipes, find ingredients, and plan out a meal. The software also allows users to save their recipes for later use and share them with friends and family. Cookbook software is a great way to streamline the cooking process and make cooking easier and more enjoyable.",
-      image: "/images/wateen-cookbook-software.svg",
+        "Wateen Restaurant vendor payments software is a must-have for any restaurant. It streamlines the process of paying vendors by automating payments, reconciling accounts, and providing detailed reporting. This eliminates the need for manual processes such as tracking vendor invoices, preparing payments, managing accounts, and dealing with discrepancies. It also simplifies the process for vendors by providing them with secure, automated payment processing. With Wateen restaurant vendor payments software, restaurants can save time and money, reduce mistakes, and improve vendor relations.",
+      image: "/images/wateen-multi-units-and-chain-software.svg",
     },
 
     clearVisibility: {
-      heading: "Improved Accuracy",
+      heading: "Improved cash flow",
       details:
-        "Wateen Cookbook software eliminates the need to copy and paste recipes from multiple sources, resulting in recipes that are more accurate and up to date.",
-      image: "/images/improved-accuracy.svg",
+        "Wateen software helps restaurants to speed up the payment process, which helps to improve cash flow.",
+      image: "/images/improved-cashflow.svg",
     },
 
     increasedEfficiency: {
-      heading: "Increased Efficiency",
+      heading: "Increased accuracy",
       details:
-        "Wateen Cookbook software helps reduce the amount of time users spend searching for and organizing their recipes, saving them time and energy.",
-      image: "/images/increased-efficiency.svg",
+        "By automating the payment process, restaurants can minimize errors and ensure accuracy in payments.",
+      image: "/images/increased-accuracy.svg",
     },
 
     customizationOptions: {
-      heading: "Customization Options",
+      heading: "Streamlined vendor management",
       details:
-        "Wateen Cookbook software provides users with the ability to customize their recipes to their own tastes, such as adding ingredients, adjusting cooking times, and changing serving sizes.",
-      image: "/images/customization-options.svg",
+        "Wateen software can help to streamline the process of managing vendors, making it easier to keep track of payments and invoices.",
+      image: "/images/streamlined-vendor-management.svg",
     },
   };
 
@@ -96,7 +96,7 @@ const RestaurantVendorPayments = () => {
             color: "#FF7600",
           }}
         >
-          Wateen Cookbook Software
+          Wateen Restaurant Vendor Payments Software
         </p>
         <h1
           style={{

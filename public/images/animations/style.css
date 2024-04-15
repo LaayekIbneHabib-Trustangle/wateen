@@ -12,11 +12,11 @@
 
 /** Start Main slider **/
 .mainSlider {
-  overflow: hidden;
+  /* overflow: hidden !important; */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 40px;
+  padding-top: 0px;
   padding-bottom: 125px;
 }
 

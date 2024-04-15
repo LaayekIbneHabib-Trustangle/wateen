@@ -8,7 +8,12 @@ import {
 } from "../../../../components";
 
 const IPAAS = () => {
-  const location = useLocation();
+  const location = [
+    "Home",
+    "Intergrations",
+    "Buyers",
+    "Integration Platform (iPaaS)",
+  ];
 
   return (
     <>

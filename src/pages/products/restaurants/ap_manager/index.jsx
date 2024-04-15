@@ -99,6 +99,7 @@ const APManager = () => {
           style={{
             fontSize: "3rem",
             color: "#52006A",
+            fontWeight: "800",
           }}
         >
           Offers Some Significant Benefits

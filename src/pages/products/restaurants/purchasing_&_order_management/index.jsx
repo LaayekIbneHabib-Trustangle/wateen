@@ -80,8 +80,8 @@ const PurchasingAndOrderManagement = () => {
       <section>
         <HeroSecondary
           location={location}
-          h2="Wateen Purchasing and Ordering Management"
-          h3="Offers Some Significant Benefits"
+          h2="Purchasing and Ordering Management"
+          h3="Maximizing Efficiency Wateen Purchasing and Ordering Management"
         />
       </section>
       <section
@@ -94,14 +94,16 @@ const PurchasingAndOrderManagement = () => {
           style={{
             fontSize: "1.5rem",
             color: "#FF7600",
+            fontWeight: "700",
           }}
         >
-          Wateen Cookbook Software
+          Wateen Purchasing and Ordering Management
         </p>
         <h1
           style={{
             fontSize: "3rem",
             color: "#52006A",
+            fontWeight: "800",
           }}
         >
           Offers Some Significant Benefits

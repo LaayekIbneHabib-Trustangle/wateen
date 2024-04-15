@@ -26,7 +26,7 @@ export const Hero = styled.div`
 
   div {
     margin-top: 2.5rem;
-    width: 45rem;
+    width: 65rem;
     display: flex;
     flex-direction: column;
     // align-items: center;
@@ -50,7 +50,7 @@ export const Hero = styled.div`
   h3 {
     color: #ffffff;
     text-align: center;
-    font-size: 2.15rem;
+    font-size: 2.55rem;
     font-style: normal;
     font-weight: 500;
     line-height: 3rem;
@@ -81,4 +81,8 @@ export const StyledListItem = styled.li`
   line-height: normal;
   letter-spacing: 0.14rem;
   text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
 `;

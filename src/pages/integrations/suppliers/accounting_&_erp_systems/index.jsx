@@ -1,5 +1,4 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import {
   HeroSecondary,
   Wrapper,
@@ -8,7 +7,12 @@ import {
 } from "../../../../components";
 
 const AccountingAndERPSytems = () => {
-  const location = useLocation();
+  const location = [
+    "Home",
+    "Intergrations",
+    "Suppliers",
+    "Accounting & ERP Systems",
+  ];
 
   return (
     <>

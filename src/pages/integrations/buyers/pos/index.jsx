@@ -8,7 +8,7 @@ import {
 } from "../../../../components";
 
 const POS = () => {
-  const location = useLocation();
+  const location = ["Home", "Intergrations", "Buyers", "Point of Sale (POS)"];
 
   return (
     <>
