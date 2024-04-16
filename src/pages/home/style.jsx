@@ -43,21 +43,21 @@ export const Primary = styled.div`
   .wifi-ani {
     position: relative;
     top: 3.4rem;
-    left: 27.25rem !important;
-    width: 7rem;
+    left: 27.25rem;
+    width: 7.5rem;
     margin: -6rem 0 0 0;
     transform: rotate(30deg);
   }
 
   @media (-webkit-min-device-pixel-ratio: 0) {
     .wifi-ani {
-      left: 27.25rem !important;
+      left: 28.1rem !important;
     }
   }
 
   @-moz-document url-prefix() {
     .wifi-ani {
-      left: 28.5rem !important;
+      left: 28.15rem !important;
     }
   }
 
