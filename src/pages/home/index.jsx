@@ -36,7 +36,7 @@ const Home = () => {
             <Scroll>
             <img
                     src="/images/Arrow.gif"
-                    alt=""
+                    alt="Scroll to Wateen description"
                   />
             </Scroll>
             <Seconary>
