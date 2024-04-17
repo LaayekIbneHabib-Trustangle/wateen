@@ -10,7 +10,7 @@ import {
   RequestADemo,
 } from "../../components";
 
-import { Section, Hero, Primary, Seconary } from "./style";
+import { Section, Hero, Primary, Scroll, Seconary } from "./style";
 
 const Home = () => {
   return (
@@ -33,6 +33,12 @@ const Home = () => {
                 </Link>
               </div>
             </Primary>
+            <Scroll>
+            <img
+                    src="/images/Arrow.gif"
+                    alt=""
+                  />
+            </Scroll>
             <Seconary>
               <div
                 style={{

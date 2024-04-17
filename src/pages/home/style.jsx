@@ -128,4 +128,19 @@ export const Seconary = styled.div`
   }
 `;
 
+export const Scroll = styled.div`
+  display: flex;
+  align-self: end;
+  position: relative;
+  top: 33px;
+  right: 20px;
+  
+  img {width: 7.5rem; height: 9rem;}
+
+  @media (max-width: 1080px) {
+    display: none;
+  }
+
+`;
+
 // export const Seconary = styled.div``;
