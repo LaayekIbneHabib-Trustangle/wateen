@@ -4,7 +4,7 @@ export const Section = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/hero-secondary.svg);
+  background-image: url(/images/hero-secondary.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;

@@ -19,48 +19,48 @@ const Brands = () => {
         </div>
         <div className="logos">
           <div className="logos-slide">
-            <img src="/images/hunger-station.svg" alt="" />
+            <img src="/images/hunger-station.webp" alt="" />
             <img
               style={{ marginRight: "6rem" }}
-              src="/images/talabat.svg"
+              src="/images/talabat.webp"
               alt=""
             />
             <img
               style={{ marginRight: "6rem" }}
-              src="/images/to-you.svg"
+              src="/images/to-you.webp"
               alt=""
             />
             <img
               style={{ marginRight: "6rem" }}
-              src="/images/jahez.svg"
+              src="/images/jahez.webp"
               alt=""
             />
             <img
               style={{ marginRight: "4rem" }}
-              src="/images/mr-sool.svg"
+              src="/images/mr-sool.webp"
               alt=""
             />
           </div>
           <div className="logos-slide">
-            <img src="/images/hunger-station.svg" alt="" />
+            <img src="/images/hunger-station.webp" alt="" />
             <img
               style={{ marginRight: "1rem" }}
-              src="/images/talabat.svg"
+              src="/images/talabat.webp"
               alt=""
             />
             <img
               style={{ marginRight: "3rem" }}
-              src="/images/to-you.svg"
+              src="/images/to-you.webp"
               alt=""
             />
             <img
               style={{ marginRight: "3rem" }}
-              src="/images/jahez.svg"
+              src="/images/jahez.webp"
               alt=""
             />
             <img
               style={{ marginRight: "10rem" }}
-              src="/images/mr-sool.svg"
+              src="/images/mr-sool.webp"
               alt=""
             />
           </div>

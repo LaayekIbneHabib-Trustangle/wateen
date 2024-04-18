@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import usaFlag from "/images/usa-flag.svg";
-import saudiArabiaFlag from "/images/saudi-arabia-flag.svg";
+import usaFlag from "/images/usa-flag.webp";
+import saudiArabiaFlag from "/images/saudi-arabia-flag.webp";
 import useCountryStore from "../../store";
 
 const Dropdown = () => {
@@ -47,7 +47,7 @@ const Dropdown = () => {
             {selectedCountry}
             <img
               style={{ position: "absolute", margin: "0 0 0 5.55rem" }}
-              src="/images/dropdown-arrow.svg"
+              src="/images/dropdown-arrow.webp"
               alt=""
             />
           </>
@@ -61,7 +61,7 @@ const Dropdown = () => {
             SAR
             <img
               style={{ position: "absolute", margin: "0 0 0 5.55rem" }}
-              src="/images/dropdown-arrow.svg"
+              src="/images/dropdown-arrow.webp"
               alt=""
             />
           </>

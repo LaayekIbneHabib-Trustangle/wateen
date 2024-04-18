@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  background: url(/images/request-a-demo.svg);
+  background: url(/images/request-a-demo.webp);
   background-color: #52006a;
   display: flex;
   justify-content: space-between;

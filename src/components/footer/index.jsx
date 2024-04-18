@@ -11,7 +11,7 @@ const Footer = () => {
           <Content>
             <Primary>
               <About>
-                <img src="/images/logo-light.svg" alt="" />
+                <img src="/images/logo-light.webp" alt="" />
                 <br />
                 <br />
                 <p>
@@ -34,7 +34,7 @@ const Footer = () => {
                       <td>
                         <Link to="restaurants">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>Restaurants</p>
                           </span>
                         </Link>
@@ -42,7 +42,7 @@ const Footer = () => {
                       <td>
                         <Link to="accounting-&-e-r-p-systems-suppliers">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>Suppliers</p>
                           </span>
                         </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
                       <td>
                         <Link to="about-us">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>About</p>
                           </span>
                         </Link>
@@ -60,7 +60,7 @@ const Footer = () => {
                       <td>
                         <Link to="distributors">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>Distributors</p>
                           </span>
                         </Link>
@@ -68,19 +68,19 @@ const Footer = () => {
                       <td>
                         <Link to="p-o-s">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>Buyers</p>
                           </span>
                         </Link>
                       </td>
                       {/* <td>
-                        <img src="/images/side-arrow.svg" alt="" />
+                        <img src="/images/side-arrow.webp" alt="" />
                         <p>Careers</p>
                       </td> */}
                       <td>
                         <Link to="request-a-demo">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>Request a Demo</p>
                           </span>
                         </Link>
@@ -93,7 +93,7 @@ const Footer = () => {
                       <td>
                         <Link to="lets-talk">
                           <span>
-                            <img src="/images/side-arrow.svg" alt="" />
+                            <img src="/images/side-arrow.webp" alt="" />
                             <p>Contact Us</p>
                           </span>
                         </Link>
@@ -116,7 +116,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link to="http://twitter.com/wateen_platform" target="_blank">
-                    <img src="/images/twitter.svg" alt="" />
+                    <img src="/images/twitter.webp" alt="" />
                   </Link>
                 </li>
                 <li>
@@ -124,7 +124,7 @@ const Footer = () => {
                     to="https://instagram.com/wateen_platform?igshid=OGQ5ZDc2ODk2ZA=="
                     target="_blank"
                   >
-                    <img src="/images/instagram.svg" alt="" />
+                    <img src="/images/instagram.webp" alt="" />
                   </Link>
                 </li>
                 <li>
@@ -132,7 +132,7 @@ const Footer = () => {
                     to="https://youtube.com/@Wateen_Platform?feature=shared"
                     target="_blank"
                   >
-                    <img src="/images/youtube.svg" alt="" />
+                    <img src="/images/youtube.webp" alt="" />
                   </Link>
                 </li>
                 <li>
@@ -140,7 +140,7 @@ const Footer = () => {
                     to="https://www.facebook.com/profile.php?id=100091734840280&mibextid=D4KYlr"
                     target="_blank"
                   >
-                    <img src="/images/facebook.svg" alt="" />
+                    <img src="/images/facebook.webp" alt="" />
                   </Link>
                 </li>
                 <li>
@@ -148,7 +148,7 @@ const Footer = () => {
                     to="https://sa.linkedin.com/company/wateen"
                     target="_blank"
                   >
-                    <img src="/images/linkedin.svg" alt="" />
+                    <img src="/images/linkedin.webp" alt="" />
                   </Link>
                 </li>
               </ul>

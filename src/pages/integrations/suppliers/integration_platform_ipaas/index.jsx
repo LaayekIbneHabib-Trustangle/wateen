@@ -21,10 +21,10 @@ const IPAAS = () => {
       </section>
       <section style={{ margin: "5rem 0 5rem 0" }}>
         <Wrapper>
-          <Bars img="/images/reachware.svg" />
+          <Bars img="/images/reachware.webp" />
           <br />
           <br />
-          <Bars img="/images/ipaas-buyers-how-it-works.svg" />
+          <Bars img="/images/ipaas-buyers-how-it-works.webp" />
           <br />
           <br />
           <h2
@@ -43,7 +43,7 @@ const IPAAS = () => {
           <br />
           <br />
           <div style={{ display: "flex", gap: ".5rem" }}>
-            <img src="/images/ipaas-buyers-efficiency.svg" alt="" />
+            <img src="/images/ipaas-buyers-efficiency.webp" alt="" />
             <div
               style={{
                 display: "flex",
@@ -51,10 +51,10 @@ const IPAAS = () => {
                 gap: ".5rem",
               }}
             >
-              <img src="/images/ipaas-buyers-time-saving.svg" alt="" />
-              <img src="/images/ipaas-buyers-improved-accuracy.svg" alt="" />
-              <img src="/images/ipaas-buyers-enhanced-visibility.svg" alt="" />
-              <img src="/images/ipaas-buyers-cost-optimization.svg" alt="" />
+              <img src="/images/ipaas-buyers-time-saving.webp" alt="" />
+              <img src="/images/ipaas-buyers-improved-accuracy.webp" alt="" />
+              <img src="/images/ipaas-buyers-enhanced-visibility.webp" alt="" />
+              <img src="/images/ipaas-buyers-cost-optimization.webp" alt="" />
             </div>
           </div>
         </Wrapper>

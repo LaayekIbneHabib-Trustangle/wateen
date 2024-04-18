@@ -12,12 +12,12 @@ import {
 
 const MultiUnitsAndChains = () => {
   const images = [
-    "/images/efficient-operations.svg",
-    "/images/centralized-performance-tracking.svg",
-    "/images/scalable-solutions.svg",
-    "/images/task-automation.svg",
-    "/images/real-time-analytics.svg",
-    "/images/cost-reduction-and-increase-profit.svg",
+    "/images/efficient-operations.webp",
+    "/images/centralized-performance-tracking.webp",
+    "/images/scalable-solutions.webp",
+    "/images/task-automation.webp",
+    "/images/real-time-analytics.webp",
+    "/images/cost-reduction-and-increase-profit.webp",
   ];
 
   const captions = [
@@ -35,28 +35,28 @@ const MultiUnitsAndChains = () => {
       heading: "Wateen Multi Units and Chains Software",
       details:
         "Wateen Multi-Units and Chains Software provide several benefits to businesses, such as increased efficiency, cost savings, and improved customer service. By using software to manage multiple locations and chains, businesses can streamline their operations, saving time and money. With the software, businesses can quickly and easily access data from all their locations, enabling them to make informed decisions. Furthermore, Multi-Units and Chains Software also provides features to track inventory, monitor sales, and manage customer relationships. These features are critical to maintaining a successful business and can help to improve customer service and boost profits.",
-      image: "/images/wateen-multi-units-and-chains-software.svg",
+      image: "/images/wateen-multi-units-and-chains-software.webp",
     },
 
     costSavings: {
       heading: "Cost Savings",
       details:
         "Wateen Multi-unit and chain software helps reduce overhead costs, such as travel expenses, by allowing managers to manage their stores remotely. By automating certain processes, such as ordering, managers can also save time and money.",
-      image: "/images/cost-savings.svg",
+      image: "/images/cost-savings.webp",
     },
 
     improvedCommunication: {
       heading: "Improved Communication",
       details:
         "Wateen Multi-unit and chain software also enables managers to communicate more effectively with their staff. This helps ensure that tasks are completed on time and with the highest quality.",
-      image: "/images/improved-communication.svg",
+      image: "/images/improved-communication.webp",
     },
 
     increasedVisibility: {
       heading: "Increased Visibility",
       details:
         "Wateen Multi-unit and chain software gives store managers greater visibility into their store performance. By tracking sales, inventory, and customer data, managers can quickly identify areas of improvement and take action to maximize profits.",
-      image: "/images/increased-visibility.svg",
+      image: "/images/increased-visibility.webp",
     },
   };
 

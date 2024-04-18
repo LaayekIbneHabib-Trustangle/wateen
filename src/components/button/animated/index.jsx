@@ -14,8 +14,8 @@ const AnimatedButton = (props) => {
           <img
             src={
               props.theme === "#52006a"
-                ? "/images/right-arrow-white.png"
-                : "/images/right-arrow-orange.png"
+                ? "/images/right-arrow-white.webp"
+                : "/images/right-arrow-orange.webp"
             }
             alt=""
           />

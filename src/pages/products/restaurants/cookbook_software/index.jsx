@@ -12,16 +12,16 @@ import {
 
 const CookbookSoftware = () => {
   const images = [
-    "/images/intuitive-cookbook-management.svg",
-    "/images/seamless-recipe-search.svg",
-    "/images/taste-and-tell.svg",
-    "/images/convenient-recipe-printing-and-exporting.svg",
-    "/images/integration-with-external-services.svg",
-    "/images/creating-and-organizing-collections.svg",
-    "/images/recipe-sharing.svg",
-    "/images/personalized-recipe-customization.svg",
-    "/images/easy-recipe-access.svg",
-    "/images/meal-planning-and-nutrition-tracking-tools.svg",
+    "/images/intuitive-cookbook-management.webp",
+    "/images/seamless-recipe-search.webp",
+    "/images/taste-and-tell.webp",
+    "/images/convenient-recipe-printing-and-exporting.webp",
+    "/images/integration-with-external-services.webp",
+    "/images/creating-and-organizing-collections.webp",
+    "/images/recipe-sharing.webp",
+    "/images/personalized-recipe-customization.webp",
+    "/images/easy-recipe-access.webp",
+    "/images/meal-planning-and-nutrition-tracking-tools.webp",
   ];
 
   const captions = [
@@ -43,28 +43,28 @@ const CookbookSoftware = () => {
       heading: "Wateen Cookbook Software",
       details:
         "Wateen Cookbook software is an invaluable tool for anyone who loves to cook. It offers an easy way to store, organize, and share recipes. It also allows users to create custom meal plans and grocery lists. With cookbook software, home cooks can quickly search for recipes, find ingredients, and plan out a meal. The software also allows users to save their recipes for later use and share them with friends and family. Cookbook software is a great way to streamline the cooking process and make cooking easier and more enjoyable.",
-      image: "/images/wateen-cookbook-software.svg",
+      image: "/images/wateen-cookbook-software.webp",
     },
 
     clearVisibility: {
       heading: "Improved Accuracy",
       details:
         "Wateen Cookbook software eliminates the need to copy and paste recipes from multiple sources, resulting in recipes that are more accurate and up to date.",
-      image: "/images/improved-accuracy.svg",
+      image: "/images/improved-accuracy.webp",
     },
 
     increasedEfficiency: {
       heading: "Increased Efficiency",
       details:
         "Wateen Cookbook software helps reduce the amount of time users spend searching for and organizing their recipes, saving them time and energy.",
-      image: "/images/increased-efficiency.svg",
+      image: "/images/increased-efficiency.webp",
     },
 
     customizationOptions: {
       heading: "Customization Options",
       details:
         "Wateen Cookbook software provides users with the ability to customize their recipes to their own tastes, such as adding ingredients, adjusting cooking times, and changing serving sizes.",
-      image: "/images/customization-options.svg",
+      image: "/images/customization-options.webp",
     },
   };
 

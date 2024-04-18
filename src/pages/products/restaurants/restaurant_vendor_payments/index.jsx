@@ -12,16 +12,16 @@ import {
 
 const RestaurantVendorPayments = () => {
   const images = [
-    "/images/timely-and-accurate-payments.svg",
-    "/images/fast-and-accurate-payment-processing.svg",
-    "/images/cost-effective-payment-processing.svg",
-    "/images/secure-payment-system.svg",
-    "/images/payment-tracking-and-reporting.svg",
-    "/images/automated-data-entry.svg",
-    "/images/transparent-payment-audit-trial.svg",
-    "/images/enhanced-vendor-staff-communication.svg",
-    "/images/online-invoice-submission.svg",
-    "/images/seamless-integration.svg",
+    "/images/timely-and-accurate-payments.webp",
+    "/images/fast-and-accurate-payment-processing.webp",
+    "/images/cost-effective-payment-processing.webp",
+    "/images/secure-payment-system.webp",
+    "/images/payment-tracking-and-reporting.webp",
+    "/images/automated-data-entry.webp",
+    "/images/transparent-payment-audit-trial.webp",
+    "/images/enhanced-vendor-staff-communication.webp",
+    "/images/online-invoice-submission.webp",
+    "/images/seamless-integration.webp",
   ];
 
   const captions = [
@@ -43,28 +43,28 @@ const RestaurantVendorPayments = () => {
       heading: "Wateen Multi Units and Chains Software",
       details:
         "Wateen Restaurant vendor payments software is a must-have for any restaurant. It streamlines the process of paying vendors by automating payments, reconciling accounts, and providing detailed reporting. This eliminates the need for manual processes such as tracking vendor invoices, preparing payments, managing accounts, and dealing with discrepancies. It also simplifies the process for vendors by providing them with secure, automated payment processing. With Wateen restaurant vendor payments software, restaurants can save time and money, reduce mistakes, and improve vendor relations.",
-      image: "/images/wateen-multi-units-and-chain-software.svg",
+      image: "/images/wateen-multi-units-and-chain-software.webp",
     },
 
     clearVisibility: {
       heading: "Improved cash flow",
       details:
         "Wateen software helps restaurants to speed up the payment process, which helps to improve cash flow.",
-      image: "/images/improved-cashflow.svg",
+      image: "/images/improved-cashflow.webp",
     },
 
     increasedEfficiency: {
       heading: "Increased accuracy",
       details:
         "By automating the payment process, restaurants can minimize errors and ensure accuracy in payments.",
-      image: "/images/increased-accuracy.svg",
+      image: "/images/increased-accuracy.webp",
     },
 
     customizationOptions: {
       heading: "Streamlined vendor management",
       details:
         "Wateen software can help to streamline the process of managing vendors, making it easier to keep track of payments and invoices.",
-      image: "/images/streamlined-vendor-management.svg",
+      image: "/images/streamlined-vendor-management.webp",
     },
   };
 

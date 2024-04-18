@@ -19,7 +19,7 @@ const Home = () => {
         <Wrapper>
           <Hero>
             <Primary>
-              <img className="wifi-ani" src="/images/wifi-ani.gif" alt="" />
+              <img className="wifi-ani" src="/images/wifi-ani.webp" alt="" />
               <h1>
                 #1 B2B <span>Online</span>
               </h1>
@@ -34,7 +34,7 @@ const Home = () => {
               </div>
             </Primary>
             <Scroll>
-              <img src="/images/Arrow.gif" alt="Scroll to Wateen description" />
+              <img src="/images/Arrow.webp" alt="Scroll to Wateen description" />
             </Scroll>
             <Seconary>
               <div
@@ -52,7 +52,7 @@ const Home = () => {
                     height: "15.5rem",
                     margin: "-1rem .5rem 0 0",
                   }}
-                  src="/images/this-spot-awaits-you.gif"
+                  src="/images/this-spot-awaits-you.webp"
                   alt=""
                 />
                 <img
@@ -63,12 +63,12 @@ const Home = () => {
                     height: "13rem",
                     margin: ".5rem -31.5rem 0 0",
                   }}
-                  src="/images/logo-effect.gif"
+                  src="/images/logo-effect.webp"
                   alt=""
                 />
                 <img
                   style={{ width: "40rem", height: "40rem" }}
-                  src="/images/hero-widget.svg"
+                  src="/images/hero-widget.webp"
                   alt=""
                 />
               </div>
@@ -127,20 +127,20 @@ const Home = () => {
               paragraph="Wateen provides business owners and their employees with the tools
             to automate the manual tasks required to operate and grow their
             businesses"
-              icon="/images/optimize.svg"
+              icon="/images/optimize.webp"
             />
             <AnimatedCard
               theme="#ffffff"
               heading="Easing Bulk Food and Beverage Ordering"
               paragraph="Simplifies ordering bulk food and beverages for restaurants and suppliers of all sizes"
-              icon="/images/bag.svg"
-              bg="/images/easing-bulk-food-and-beverage-ordering.png"
+              icon="/images/bag.webp"
+              bg="/images/easing-bulk-food-and-beverage-ordering.webp"
             />
             <AnimatedCard
               theme="#52006a"
               heading="Improving Food Service through Enhanced Communication"
               paragraph="Lowers barriers to communication between restaurants and distributors, using what they have assets with the goal of making food service better for everyone"
-              icon="/images/communication.svg"
+              icon="/images/communication.webp"
             />
           </div>
         </Wrapper>
@@ -190,17 +190,17 @@ const Home = () => {
             }}
           >
             <StandardCard
-              image="/images/all-orders-on-wateen-platform.gif"
+              image="/images/all-orders-on-wateen-platform.webp"
               heading="All Orders on Wateen Platform"
               paragraph="All orders can be obtained in one platform, which is Wateen"
             />
             <StandardCard
-              image="/images/one-platform-one-connection-one-provider.gif"
+              image="/images/one-platform-one-connection-one-provider.webp"
               heading="One Platform, One Connection, One Provider"
               paragraph="All market data channels can be combined into a single platform through a single connection to a single provider"
             />
             <StandardCard
-              image="/images/wateen-trusted-by-leading-companies.gif"
+              image="/images/wateen-trusted-by-leading-companies.webp"
               heading="Wateen Trusted by Leading Companies"
               paragraph="Wateen has been recognized and trusted by the leading companies in the food industry."
             />
@@ -213,7 +213,7 @@ const Home = () => {
             }}
           >
             <TabCard
-              image="/images/provides-effective-communication-channels.gif"
+              image="/images/provides-effective-communication-channels.webp"
               heading="Provides effective communication channels"
               paragraph="Wateen platform provides effective communication channels that simplifies and speeds up the buying and selling process."
             />
@@ -229,17 +229,17 @@ const Home = () => {
             }}
           >
             <StandardCard
-              image="/images/ultimate-supply-chain-solution.gif"
+              image="/images/ultimate-supply-chain-solution.webp"
               heading="Ultimate Supply Chain Solution"
               paragraph="Wateen covers all challenges in security, quality, traceability, planning, reporting and dashboard."
             />
             <StandardCard
-              image="/images/connecting-companies-fueling-growth.gif"
+              image="/images/connecting-companies-fueling-growth.webp"
               heading="Connecting Companies, Fueling Growth"
               paragraph="Facilitate the establishment of new business relationships between companies"
             />
             <StandardCard
-              image="/images/cost-effective-marketing-solution.gif"
+              image="/images/cost-effective-marketing-solution.webp"
               heading="Cost-Effective Marketing Solution"
               paragraph="Allow companies to reduce their marketing expenses"
             />

@@ -119,7 +119,7 @@ const Navbar = () => {
         <Menu onMouseLeave={handleLeave}>
           <Item>
             <NavLink style={{ color: "#594D6D" }} to="/">
-              <img src="/images/logo-dark.svg" alt="" />
+              <img src="/images/logo-dark.webp" alt="" />
             </NavLink>
           </Item>
           <Item>
@@ -132,7 +132,7 @@ const Navbar = () => {
               <>
                 <span>{key}</span>
                 <span>
-                  <img src="/images/dropdown-arrow.svg" alt="" />
+                  <img src="/images/dropdown-arrow.webp" alt="" />
                 </span>
                 {hoveredKey === key && value && (
                   <SubMenu
@@ -208,14 +208,14 @@ const Navbar = () => {
           <main>
             <div onClick={() => setSidenavOpen((prevState) => !prevState)}>
               {toggled.display === "none" ? (
-                <img src="/images/burger-menu.svg" alt="" />
+                <img src="/images/burger-menu.webp" alt="" />
               ) : (
-                <img src="/images/close-menu.svg" alt="" />
+                <img src="/images/close-menu.webp" alt="" />
               )}
             </div>
             <div>
               <NavLink to="/">
-                <img src="/images/logo-dark.svg" alt="" />
+                <img src="/images/logo-dark.webp" alt="" />
               </NavLink>
             </div>
           </main>
@@ -241,7 +241,7 @@ const Navbar = () => {
                     justifyContent: "space-between",
                   }}
                 >
-                  {key} <img src="/images/right-arrow.svg" alt="" />
+                  {key} <img src="/images/right-arrow.webp" alt="" />
                 </span>
                 {hoveredKey === key && value && (
                   <BurgerSubMenu>

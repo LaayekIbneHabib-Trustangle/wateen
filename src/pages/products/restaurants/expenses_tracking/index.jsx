@@ -11,11 +11,11 @@ import {
 
 const ExpensesTracking = () => {
   const images = [
-    "/images/budget-optimization.svg",
-    "/images/clear-financial-picture.svg",
-    "/images/increase-savings.svg",
-    "/images/better-spending-habits.svg",
-    "/images/improve-credit-score.svg",
+    "/images/budget-optimization.webp",
+    "/images/clear-financial-picture.webp",
+    "/images/increase-savings.webp",
+    "/images/better-spending-habits.webp",
+    "/images/improve-credit-score.webp",
   ];
 
   const captions = [
@@ -32,28 +32,28 @@ const ExpensesTracking = () => {
       heading: "Wateen Expenses Tracking",
       details:
         "Wateen Expense Tracking software is an essential tool for businesses of any size. It allows companies to accurately track their spending, identify areas of inefficiency, and develop strategies to reduce costs. By monitoring all expenses, businesses can quickly spot areas where money is being wasted, or where costs can be reduced. This information can then be used to make informed decisions about the best way to allocate resources. Furthermore, the data collected by expense tracking software can be used to demonstrate to stakeholders the value of investments, and to uncover opportunities for improvement. By keeping careful track of their expenses, companies can ensure that their money is being spent in the most effective and efficient way possible.",
-      image: "/images/wateen-expenses-tracking.svg",
+      image: "/images/wateen-expenses-tracking.webp",
     },
 
     automatedAlerts: {
       heading: "Automated Alerts",
       details:
         "Expense tracking software can be set up to send automated alerts when an expense reaches a certain threshold. This allows businesses to stay on top of their expenses and take action when necessary.",
-      image: "/images/automated-alerts.svg",
+      image: "/images/automated-alerts.webp",
     },
 
     betterVisibility: {
       heading: "Better Visibility",
       details:
         "Expense tracking software provides a comprehensive view of expenses and can generate reports in real time. This allows managers and business owners to have better visibility into their expenses and make informed decisions.",
-      image: "/images/better-visibility.svg",
+      image: "/images/better-visibility.webp",
     },
 
     costSavings: {
       heading: "Cost Savings",
       details:
         "The automated process of tracking expenses eliminates the need for manual data entry, which saves costs associated with hiring additional staff.",
-      image: "/images/cost-savings.svg",
+      image: "/images/cost-savings.webp",
     },
   };
 

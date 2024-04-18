@@ -13,11 +13,11 @@ import "./style.css";
 
 const OrderManager = () => {
   const images = [
-    "/images/automating-ordering.svg",
-    "/images/seamless-operation.svg",
-    "/images/enhanced-business-oversight.svg",
-    "/images/efficient-management.svg",
-    "/images/anticipating-business-needs.svg",
+    "/images/automating-ordering.webp",
+    "/images/seamless-operation.webp",
+    "/images/enhanced-business-oversight.webp",
+    "/images/efficient-management.webp",
+    "/images/anticipating-business-needs.webp",
   ];
 
   const captions = [
@@ -34,7 +34,7 @@ const OrderManager = () => {
       heading: "Wateen Order Manager",
       details:
         "Receiving, tracking, and fulfilling customer orders is a time-consuming, often error-prone process that costs companies not only time, but money. This is Wateen Order Manager System comes in to help streamline operations by automating many unavoidable back-office tasks.",
-      image: "/images/wateen-order-manager.svg",
+      image: "/images/wateen-order-manager.webp",
     },
 
     unifiedOrders: {
@@ -45,7 +45,7 @@ const OrderManager = () => {
         "Consolidate orders across multiple locations.",
         "Stay organized with a single source of truth for all requests.",
       ],
-      image: "/images/unified-orders.svg",
+      image: "/images/unified-orders.webp",
     },
 
     eliminateThePossibilityOfHumanError: {
@@ -57,7 +57,7 @@ const OrderManager = () => {
       ],
       spcil:
         "Since all entries are made in one place, it also eliminates the possibility of miscalculation or wrong orders being placed.",
-      image: "/images/eliminate-the-possibility-of-human-error.svg",
+      image: "/images/eliminate-the-possibility-of-human-error.webp",
     },
 
     realTimeVisibility: {
@@ -68,7 +68,7 @@ const OrderManager = () => {
         "Oversee purchasing processes at all locations to ensure accuracy.",
         "Get an accurate view of your business with reliable data and analytics.",
       ],
-      image: "/images/real-time-visibility-2.svg",
+      image: "/images/real-time-visibility-2.webp",
     },
   };
 

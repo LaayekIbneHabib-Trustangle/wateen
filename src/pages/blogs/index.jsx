@@ -106,7 +106,7 @@ const Blogs = () => {
                     <p>{item.preview}</p>
                     <Link to={`/blog/${item.id}`}>
                       <span>
-                        Read more <img src="/images/read-more.svg" alt="" />
+                        Read more <img src="/images/read-more.webp" alt="" />
                       </span>
                     </Link>
                   </div>
