@@ -33,34 +33,44 @@ const Footer = () => {
                     <tr>
                       <td>
                         <Link to="restaurants">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>Restaurants</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>Restaurants</p>
+                          </span>
                         </Link>
                       </td>
                       <td>
                         <Link to="accounting-&-e-r-p-systems-suppliers">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>Suppliers</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>Suppliers</p>
+                          </span>
                         </Link>
                       </td>
                       <td>
                         <Link to="about-us">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>About</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>About</p>
+                          </span>
                         </Link>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <Link to="distributors">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>Distributors</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>Distributors</p>
+                          </span>
                         </Link>
                       </td>
                       <td>
                         <Link to="p-o-s">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>Buyers</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>Buyers</p>
+                          </span>
                         </Link>
                       </td>
                       {/* <td>
@@ -69,8 +79,10 @@ const Footer = () => {
                       </td> */}
                       <td>
                         <Link to="request-a-demo">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>Request a Demo</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>Request a Demo</p>
+                          </span>
                         </Link>
                       </td>
                     </tr>
@@ -80,8 +92,10 @@ const Footer = () => {
                       <td></td>
                       <td>
                         <Link to="lets-talk">
-                          <img src="/images/side-arrow.svg" alt="" />
-                          <p>Contact Us</p>
+                          <span>
+                            <img src="/images/side-arrow.svg" alt="" />
+                            <p>Contact Us</p>
+                          </span>
                         </Link>
                       </td>
                     </tr>

@@ -83,14 +83,23 @@ export const QuickAccess = styled.div`
   }
 
   table tr td {
-    display: flex;
-    gap: 1rem;
+    // display: flex;
+    // gap: 1rem;
     width: 17.5rem;
     color: #ffffff;
     font-size: 1.4rem;
     font-style: normal;
     line-height: 2.4rem;
     letter-spacing: 0.1rem;
+  }
+
+  table tr td span {
+    display: flex;
+    gap: 1rem;
+  }
+
+  table tr td span p {
+    color: #ffffff;
   }
 
   @media (max-width: 1080px) {

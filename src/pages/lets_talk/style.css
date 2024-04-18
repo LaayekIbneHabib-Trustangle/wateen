@@ -1,0 +1,4 @@
+.input-msg input::placeholder {
+  position: absolute;
+  top: 2rem;
+}

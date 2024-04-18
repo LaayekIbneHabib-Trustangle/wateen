@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroSecondary, Wrapper } from "../../components";
-import { useLocation } from "react-router-dom";
+import "./style.css";
 
 const LetsTalk = () => {
   const location = ["Hpme", "Let's talk"];
@@ -84,6 +84,7 @@ const LetsTalk = () => {
                 />
               </div>
               <div
+                className="input-msg"
                 style={{
                   display: "flex",
                   flexDirection: "column",

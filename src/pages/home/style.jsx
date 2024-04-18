@@ -43,21 +43,21 @@ export const Primary = styled.div`
   .wifi-ani {
     position: relative;
     top: 3.4rem;
-    left: 27.25rem;
-    width: 7.5rem;
+    left: 27.25rem !important;
+    width: 7rem;
     margin: -6rem 0 0 0;
     transform: rotate(30deg);
   }
 
   @media (-webkit-min-device-pixel-ratio: 0) {
     .wifi-ani {
-      left: 28.1rem !important;
+      left: 28.35rem !important;
     }
   }
 
   @-moz-document url-prefix() {
     .wifi-ani {
-      left: 28.15rem !important;
+      left: 28.3rem !important;
     }
   }
 
@@ -134,13 +134,12 @@ export const Scroll = styled.div`
   position: relative;
   top: 33px;
   right: 20px;
-  
-  img {width: 7.5rem; height: 9rem;}
 
+  img {
+    width: 7.5rem;
+    height: 9rem;
+  }
   @media (max-width: 1080px) {
     display: none;
   }
-
 `;
-
-// export const Seconary = styled.div``;

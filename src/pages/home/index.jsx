@@ -34,10 +34,7 @@ const Home = () => {
               </div>
             </Primary>
             <Scroll>
-            <img
-                    src="/images/Arrow.gif"
-                    alt="Scroll to Wateen description"
-                  />
+              <img src="/images/Arrow.gif" alt="Scroll to Wateen description" />
             </Scroll>
             <Seconary>
               <div
