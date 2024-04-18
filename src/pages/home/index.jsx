@@ -10,7 +10,7 @@ import {
   RequestADemo,
 } from "../../components";
 
-import { Section, Hero, Primary, Seconary } from "./style";
+import { Section, Hero, Primary, Scroll, Seconary } from "./style";
 
 const Home = () => {
   return (
