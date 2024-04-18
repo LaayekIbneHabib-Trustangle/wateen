@@ -70,6 +70,10 @@ export const StyledList = styled.ul`
   list-style-type: none;
   // width: 100%;
   // width: 60rem;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const StyledListItem = styled.li`

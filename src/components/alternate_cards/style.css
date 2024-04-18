@@ -5,3 +5,9 @@
     /* justify-content: center !important; */
   }
 }
+
+@media (max-width: 600px) {
+  .container img {
+    width: 100%;
+  }
+}
