@@ -96,6 +96,7 @@ export const QuickAccess = styled.div`
   table tr td span {
     display: flex;
     gap: 1rem;
+    align-items: center;
   }
 
   table tr td span p {
