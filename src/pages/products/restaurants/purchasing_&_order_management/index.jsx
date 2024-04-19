@@ -64,7 +64,7 @@ const PurchasingAndOrderManagement = () => {
       heading: "Increased Visibility",
       details:
         "By having a centralized platform for managing orders and inventory, you can gain greater visibility into all aspects of the purchasing and ordering process, including suppliers, orders, inventory, and financials.",
-      image: "/images/increased-visibility.webp",
+      image: "/images/increased-visibility-POM.webp",
     },
   };
 

@@ -62,7 +62,6 @@ const APManager = () => {
       heading: "Workflow Approvals",
       details: [
         "Payments can be approved by a single user, or set so that the employee can request approval from the manager.",
-        "Pay with your choice of credit card or ACH/EFT.",
         "Email notifications when employees request approval.",
         "View orders and status in your dashboard",
       ],

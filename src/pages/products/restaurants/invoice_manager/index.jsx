@@ -44,7 +44,7 @@ const InvoiceManager = () => {
         <HeroSecondary
           location={location}
           h2="Invoice Manager"
-          h3="Manage Your Finances Easily with an Invoice Manager"
+          h3={<span>Manage Your Finances Easily with an Invoice Manager</span>}
         />
       </section>
       <section
