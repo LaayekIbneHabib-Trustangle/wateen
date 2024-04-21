@@ -51,7 +51,7 @@ const NotFound = () => {
             </div>
           </div>
           <div style={{ padding: "0 2rem 0 2rem" }}>
-            <img width="100%" src="/images/404.svg" alt="" />
+            <img width="100%" src="/images/404.webp" alt="" />
           </div>
         </div>
       </section>

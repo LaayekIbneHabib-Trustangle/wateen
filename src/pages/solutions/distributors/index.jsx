@@ -17,9 +17,9 @@ const data = [
   },
   {
     ul: [
-      ["/images/tick-bullet-list.svg", "Automated data entry"],
-      ["/images/tick-bullet-list.svg", "Full control of your accounts"],
-      ["/images/tick-bullet-list.svg", "Improve payments"],
+      ["/images/tick-bullet-list.webp", "Automated data entry"],
+      ["/images/tick-bullet-list.webp", "Full control of your accounts"],
+      ["/images/tick-bullet-list.webp", "Improve payments"],
     ],
   },
   {

@@ -50,7 +50,7 @@ const Login = () => {
                     borderRadius: "1rem",
                     padding: "0 0 0 5rem",
                     height: "4rem",
-                    backgroundImage: "url(/images/your-email.svg)",
+                    backgroundImage: "url(/images/your-email.webp)",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "2rem .8rem",
                   }}
@@ -64,7 +64,7 @@ const Login = () => {
                     borderRadius: "1rem",
                     padding: "0 0 0 5rem",
                     height: "4rem",
-                    backgroundImage: "url(/images/your-password.svg)",
+                    backgroundImage: "url(/images/your-password.webp)",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "2rem .8rem",
                   }}
@@ -141,7 +141,7 @@ const Login = () => {
                   borderRadius: "2rem",
                   width: "100%",
                 }}
-                src="/images/wateen-wallpaper.svg"
+                src="/images/wateen-wallpaper.webp"
                 alt=""
               />
             </div>

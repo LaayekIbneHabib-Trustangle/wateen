@@ -46,7 +46,7 @@ const AccountingAndERPSytemsBuyers = () => {
       </section>
       <section>
         <Wrapper>
-          <Bars img="/images/accounting-&-erp-systems.svg" />
+          <Bars img="/images/accounting-&-erp-systems.webp" />
         </Wrapper>
       </section>
       <section style={{ marginTop: "5rem", marginBottom: "55rem" }}>

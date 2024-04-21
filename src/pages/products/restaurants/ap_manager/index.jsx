@@ -12,11 +12,11 @@ import {
 
 const APManager = () => {
   const images = [
-    "/images/paperless-ap.svg",
-    "/images/suppliers-engagement.svg",
-    "/images/same-day-approval.svg",
-    "/images/discounted-payments.svg",
-    "/images/on-the-go-invoice-approvals.svg",
+    "/images/paperless-ap.webp",
+    "/images/suppliers-engagement.webp",
+    "/images/same-day-approval.webp",
+    "/images/discounted-payments.webp",
+    "/images/on-the-go-invoice-approvals.webp",
   ];
 
   const captions = [
@@ -33,7 +33,7 @@ const APManager = () => {
       heading: "Wateen AP Manager",
       details:
         "Effective Account Payable (AP) Manager can have a positive impact on the entire company. Prompt payment to suppliers helps the company maintain strong relationships with vendors and avoid issues such as delayed shipment of supplies and late payment fees. Account payable dashboard like wateen’s one helps the accounts payable team keep tabs on key metrics and analyze issues so they can keep the payment process running smoothly and efficient.",
-      image: "/images/wateen-ap-manager.svg",
+      image: "/images/wateen-ap-manager.webp",
     },
 
     clearVisibility: {
@@ -44,7 +44,7 @@ const APManager = () => {
         "Track credit notes and payments due.",
         "Look at the history of credits issued and used.",
       ],
-      image: "/images/clear-visibility.svg",
+      image: "/images/clear-visibility.webp",
     },
 
     easierPaymentProcess: {
@@ -55,18 +55,17 @@ const APManager = () => {
         "Schedule automated payments & instalments for added convenience.",
         "View, register and pay with available credits.",
       ],
-      image: "/images/easier-payment-process.svg",
+      image: "/images/easier-payment-process.webp",
     },
 
     workflowApprovals: {
       heading: "Workflow Approvals",
       details: [
         "Payments can be approved by a single user, or set so that the employee can request approval from the manager.",
-        "Pay with your choice of credit card or ACH/EFT.",
         "Email notifications when employees request approval.",
         "View orders and status in your dashboard",
       ],
-      image: "/images/workflow-approvals.svg",
+      image: "/images/workflow-approvals.webp",
     },
   };
 

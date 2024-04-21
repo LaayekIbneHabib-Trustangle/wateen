@@ -11,16 +11,16 @@ import "./style.css";
 
 const InvoiceManager = () => {
   const images = [
-    "/images/streamline-invoice-management.svg",
-    "/images/enhancing-efficiency-&-accuracy.svg",
-    "/images/automate-invoicing.svg",
-    "/images/error-free-invoicing.svg",
-    "/images/secure-invoice-management.svg",
-    "/images/intuitive-invoice-management.png",
-    "/images/insightful-invoice-reporting.svg",
-    "/images/collaborative-invoicing.svg",
-    "/images/secure-invoice-integration.png",
-    "/images/auto-invoice-generation.svg",
+    "/images/streamline-invoice-management.webp",
+    "/images/enhancing-efficiency-&-accuracy.webp",
+    "/images/automate-invoicing.webp",
+    "/images/error-free-invoicing.webp",
+    "/images/secure-invoice-management.webp",
+    "/images/intuitive-invoice-management.webp",
+    "/images/insightful-invoice-reporting.webp",
+    "/images/collaborative-invoicing.webp",
+    "/images/secure-invoice-integration.webp",
+    "/images/auto-invoice-generation.webp",
   ];
 
   const captions = [
@@ -44,7 +44,7 @@ const InvoiceManager = () => {
         <HeroSecondary
           location={location}
           h2="Invoice Manager"
-          h3="Manage Your Finances Easily with an Invoice Manager"
+          h3={<span>Manage Your Finances Easily with an Invoice Manager</span>}
         />
       </section>
       <section
@@ -140,7 +140,7 @@ const InvoiceManager = () => {
                 >
                   <img
                     style={{ height: "7rem" }}
-                    src="/images/bar-orange.svg"
+                    src="/images/bar-orange.webp"
                     alt=""
                   />
                   <div>
@@ -164,7 +164,7 @@ const InvoiceManager = () => {
                 >
                   <img
                     style={{ height: "7rem" }}
-                    src="/images/bar-gray.svg"
+                    src="/images/bar-gray.webp"
                     alt=""
                   />
                   <div>
@@ -189,7 +189,7 @@ const InvoiceManager = () => {
                 >
                   <img
                     style={{ height: "7rem" }}
-                    src="/images/bar-gray.svg"
+                    src="/images/bar-gray.webp"
                     alt=""
                   />
                   <div>
@@ -207,7 +207,7 @@ const InvoiceManager = () => {
               </ul>
             </div>
             <div>
-              <img width="100%" src="/images/invoice-manager-main.svg" alt="" />
+              <img width="100%" src="/images/invoice-manager-main.webp" alt="" />
             </div>
           </div>
         </Wrapper>

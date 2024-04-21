@@ -9,7 +9,7 @@ import {
 import { Section } from "./style";
 
 const data1 = [
-  // { img: "/images/account-receivable-automation.svg" },
+  // { img: "/images/account-receivable-automation.webp" },
   { vid: "/videos/laptop-animation.mp4" },
   { h2: "Order Manager" },
   { h3: "For Chefs and OPS Managers" },
@@ -18,16 +18,16 @@ const data1 = [
   },
   {
     ul: [
-      ["/images/consolidated-orders.svg", "Consolidated orders"],
-      ["/images/real-time-visibility.svg", "Real-time visibility"],
-      ["/images/convenient-chat.svg", "Convenient chat"],
-      ["/images/ims-integration.svg", "IMS integration"],
+      ["/images/consolidated-orders.webp", "Consolidated orders"],
+      ["/images/real-time-visibility.webp", "Real-time visibility"],
+      ["/images/convenient-chat.webp", "Convenient chat"],
+      ["/images/ims-integration.webp", "IMS integration"],
     ],
   },
 ];
 
 const data2 = [
-  { img: "/images/invoice-manager.svg" },
+  { img: "/images/invoice-manager.webp" },
   { h2: "Invoice Manager" },
   { h3: "for OPS Managers and Accountants" },
   {
@@ -35,11 +35,11 @@ const data2 = [
   },
   {
     ul: [
-      ["/images/ocr-scanning.svg", "OCR Scanning"],
-      ["/images/gl-code-support.svg", "GL code support"],
-      ["/images/approval-workflows.svg", "Approval workflows"],
+      ["/images/ocr-scanning.webp", "OCR Scanning"],
+      ["/images/gl-code-support.webp", "GL code support"],
+      ["/images/approval-workflows.webp", "Approval workflows"],
       [
-        "/images/quickbooks-online-integration.svg",
+        "/images/quickbooks-online-integration.webp",
         "QuickBooks Online integration",
       ],
     ],
@@ -49,7 +49,7 @@ const data2 = [
 ];
 
 const data3 = [
-  { img: "/images/dual-phone.svg" },
+  { img: "/images/dual-phone.webp" },
   { h2: "AP Manager" },
   { h3: "For Operations Managers and Accountants" },
   {
@@ -57,10 +57,10 @@ const data3 = [
   },
   {
     ul: [
-      ["/images/clear-visibility-icon.svg", "Clear visibility"],
-      ["/images/easy-payment.svg", "Easy payment"],
+      ["/images/clear-visibility-icon.webp", "Clear visibility"],
+      ["/images/easy-payment.webp", "Easy payment"],
       [
-        "/images/quickbooks-online-integration-orange.svg",
+        "/images/quickbooks-online-integration-orange.webp",
         "QuickBooks Online integration",
       ],
     ],

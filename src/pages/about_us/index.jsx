@@ -71,7 +71,7 @@ const AboutUs = () => {
                 width: "30rem",
               }}
             >
-              <img src="/images/streamlined-operations.svg" alt="" />
+              <img src="/images/streamlined-operations.webp" alt="" />
             </div>
             <div
               style={{
@@ -80,7 +80,7 @@ const AboutUs = () => {
                 width: "30rem",
               }}
             >
-              <img src="/images/time-saving-automation.svg" alt="" />
+              <img src="/images/time-saving-automation.webp" alt="" />
             </div>
             <div
               style={{
@@ -89,7 +89,7 @@ const AboutUs = () => {
                 width: "30rem",
               }}
             >
-              <img src="/images/effortless-collaboration.svg" alt="" />
+              <img src="/images/effortless-collaboration.webp" alt="" />
             </div>
             <div
               style={{
@@ -98,7 +98,7 @@ const AboutUs = () => {
                 width: "30rem",
               }}
             >
-              <img src="/images/user-friendly-interface.svg" alt="" />
+              <img src="/images/user-friendly-interface.webp" alt="" />
             </div>
             <div
               style={{
@@ -107,7 +107,7 @@ const AboutUs = () => {
                 width: "30rem",
               }}
             >
-              <img src="/images/enhanced-profitability.svg" alt="" />
+              <img src="/images/enhanced-profitability.webp" alt="" />
             </div>
             <div
               style={{
@@ -116,7 +116,7 @@ const AboutUs = () => {
                 width: "30rem",
               }}
             >
-              <img src="/images/mission-driven.svg" alt="" />
+              <img src="/images/mission-driven.webp" alt="" />
             </div>
           </div>
 
@@ -148,7 +148,7 @@ const AboutUs = () => {
                   Unleash the Power of Wateen
                 </h2>
               </div>
-              <img width="115rem" src="/images/left-right-arrow.svg" alt="" />
+              <img width="115rem" src="/images/left-right-arrow.webp" alt="" />
             </div>
 
             <div
@@ -162,19 +162,19 @@ const AboutUs = () => {
               <div style={{ width: "34rem" }}>
                 <img
                   width="100%"
-                  src="/images/cutting-edge-solutions.svg"
+                  src="/images/cutting-edge-solutions.webp"
                   alt=""
                 />
               </div>
               <div style={{ width: "34rem" }}>
                 <img
                   width="100%"
-                  src="/images/automated-efficiency.svg"
+                  src="/images/automated-efficiency.webp"
                   alt=""
                 />
               </div>
               <div style={{ width: "34rem" }}>
-                <img width="100%" src="/images/empowering-teams.svg" alt="" />
+                <img width="100%" src="/images/empowering-teams.webp" alt="" />
               </div>
             </div>
           </div>

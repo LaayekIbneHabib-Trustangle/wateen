@@ -12,16 +12,16 @@ import {
 
 const PurchasingAndOrderManagement = () => {
   const images = [
-    "/images/procurement-cost-savings.svg",
-    "/images/swift-response-to-requests.svg",
-    "/images/efficient-reordering-system.svg",
-    "/images/purchasing-and-demand-analysis.svg",
-    "/images/tracking-and-reporting-kpis.svg",
-    "/images/automated-order-and-inventory-tracking.svg",
-    "/images/regulatory-compliance-assurance.svg",
-    "/images/timely-delivery-assurance.svg",
-    "/images/quality-control-procedures.svg",
-    "/images/collaborative-relationship-building.svg",
+    "/images/procurement-cost-savings.webp",
+    "/images/swift-response-to-requests.webp",
+    "/images/efficient-reordering-system.webp",
+    "/images/purchasing-and-demand-analysis.webp",
+    "/images/tracking-and-reporting-kpis.webp",
+    "/images/automated-order-and-inventory-tracking.webp",
+    "/images/regulatory-compliance-assurance.webp",
+    "/images/timely-delivery-assurance.webp",
+    "/images/quality-control-procedures.webp",
+    "/images/collaborative-relationship-building.webp",
   ];
 
   const captions = [
@@ -43,28 +43,28 @@ const PurchasingAndOrderManagement = () => {
       heading: "Wateen Purchasing and Ordering Management",
       details:
         "Wateen Purchasing and Ordering Management is a great way to streamline and optimize the purchasing process. With it, businesses can track orders, monitor inventory, reduce costs, and improve customer service. It also helps ensure that all orders are processed quickly and accurately, ensuring that customers get their products in a timely manner.",
-      image: "/images/wateen-purchasing-and-ordering-management.svg",
+      image: "/images/wateen-purchasing-and-ordering-management.webp",
     },
 
     improvedSupplyChainManagement: {
       heading: "Improved Supply Chain Management",
       details:
         "Through the use of Wateen Purchasing and Ordering management systems, companies can improve their supply chain management and ensure the right products are delivered on time.",
-      image: "/images/improved-supply-chain-management.svg",
+      image: "/images/improved-supply-chain-management.webp",
     },
 
     enhancedCustomerService: {
       heading: "Enhanced Customer Service",
       details:
         "Ordering and purchasing management systems can help streamline customer service processes, providing customers with faster order tracking and customer service.",
-      image: "/images/enhanced-customer-service.svg",
+      image: "/images/enhanced-customer-service.webp",
     },
 
     increasedVisibility: {
       heading: "Increased Visibility",
       details:
         "By having a centralized platform for managing orders and inventory, you can gain greater visibility into all aspects of the purchasing and ordering process, including suppliers, orders, inventory, and financials.",
-      image: "/images/increased-visibility.svg",
+      image: "/images/increased-visibility-POM.webp",
     },
   };
 

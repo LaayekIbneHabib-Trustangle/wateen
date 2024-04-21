@@ -12,14 +12,14 @@ import {
 
 const RecipeCoastingSoftware = () => {
   const images = [
-    "/images/intuitive-interface-for-customization.svg",
-    "/images/flexible-ingredient-adjustment.svg",
-    "/images/recipe-sharing-capabilities.svg",
-    "/images/nutritional-information-display.svg",
-    "/images/versatile-ingredient-option.svg",
-    "/images/recipe-recommendations.svg",
-    "/images/convenient-recipe-storage.svg",
-    "/images/advanced-recipe-search.svg",
+    "/images/intuitive-interface-for-customization.webp",
+    "/images/flexible-ingredient-adjustment.webp",
+    "/images/recipe-sharing-capabilities.webp",
+    "/images/nutritional-information-display.webp",
+    "/images/versatile-ingredient-option.webp",
+    "/images/recipe-recommendations.webp",
+    "/images/convenient-recipe-storage.webp",
+    "/images/advanced-recipe-search.webp",
   ];
 
   const captions = [
@@ -39,28 +39,28 @@ const RecipeCoastingSoftware = () => {
       heading: "Wateen Recipe Coasting Software",
       details:
         "Wateen Recipe costing software can help restaurants and other food-related businesses to increase their profits. This software allows businesses to easily calculate their cost of goods sold (COGS) so they know exactly how much they’re spending on ingredients. It also allows them to analyze the profitability of each recipe, which helps them determine which recipes are more cost-effective and which ones are more profitable. With this in-depth knowledge, businesses can make better decisions about their menu items, pricing, and portions. Additionally, recipe costing software can help businesses keep track of their inventory, so they don’t end up running out of ingredients in the middle of a busy shift. All in all, recipe costing software can be a great asset for any food-related business.",
-      image: "/images/wateen-recipe-coasting-software.svg",
+      image: "/images/wateen-recipe-coasting-software.webp",
     },
 
     clearVisibility: {
       heading: "Streamlined Menu Planning",
       details:
         "Wateen Recipe costing software allows you to easily create and manage a menu to help you plan meals more efficiently. It also allows you to quickly adjust prices to account for ingredient costs and market conditions.",
-      image: "/images/streamlined-menu-planning.svg",
+      image: "/images/streamlined-menu-planning.webp",
     },
 
     increasedEfficiency: {
       heading: "Improved Inventory Management",
       details:
         "With recipe costing software, you can easily track your inventory levels and adjust prices accordingly. This can help reduce waste and increase profits.",
-      image: "/images/improved-inventory-management.svg",
+      image: "/images/improved-inventory-management.webp",
     },
 
     customizationOptions: {
       heading: "Enhanced Food Costing",
       details:
         "Wateen Recipe costing software can provide detailed food cost information, including ingredient costs and the cost of preparation. This information can help you make more informed decisions about how to price your menu items and adjust your menu accordingly.",
-      image: "/images/enhanced-food-costing.svg",
+      image: "/images/enhanced-food-costing.webp",
     },
   };
 

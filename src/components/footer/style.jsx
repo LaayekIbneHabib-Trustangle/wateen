@@ -4,7 +4,7 @@ export const Box = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: url(/images/footer-bg.png) no-repeat;
+  background: url(/images/footer-bg.webp) no-repeat;
   background-size: cover;
 
   @media (max-width: 1080px) {
@@ -96,6 +96,7 @@ export const QuickAccess = styled.div`
   table tr td span {
     display: flex;
     gap: 1rem;
+    align-items: center;
   }
 
   table tr td span p {

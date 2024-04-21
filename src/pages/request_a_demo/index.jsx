@@ -71,11 +71,11 @@ const RequestADemo = () => {
                   }}
                 >
                   {!isToggled ? (
-                    <img src="/images/toggle-button.svg" alt="" />
+                    <img src="/images/toggle-button.webp" alt="" />
                   ) : (
                     <img
                       style={{ transform: "scale(-1)" }}
-                      src="/images/toggle-button.svg"
+                      src="/images/toggle-button.webp"
                       alt=""
                     />
                   )}

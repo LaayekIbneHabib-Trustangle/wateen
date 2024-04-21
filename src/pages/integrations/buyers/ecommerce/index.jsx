@@ -40,7 +40,7 @@ const Ecommerce = () => {
       </section>
       <section>
         <Wrapper>
-          <Bars img="/images/ecommerce.svg" />
+          <Bars img="/images/ecommerce.webp" />
         </Wrapper>
       </section>
       <section style={{ marginTop: "5rem", marginBottom: "55rem" }}>

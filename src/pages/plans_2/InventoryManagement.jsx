@@ -160,7 +160,7 @@ const InventoryManagement = () => {
         >
           <div
             style={{
-              backgroundImage: "url(/images/inventory-management-plan.svg)",
+              backgroundImage: "url(/images/inventory-management-plan.webp)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% auto",
               width: "100%",

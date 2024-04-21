@@ -10,64 +10,6 @@
   --bggray: #f8f8f8;
 }
 
-/** Start Main slider **/
-.mainSlider {
-  /* overflow: hidden !important; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  padding-top: 0px;
-  padding-bottom: 125px;
-}
-
-.mainSlider .row {
-  align-items: center;
-}
-.mainSlider .contentSlider {
-  position: relative;
-}
-
-.mainSlider .contentSlider h2 {
-  font-weight: 800;
-  font-size: 55px;
-  line-height: 68px;
-  color: var(--whiteColor);
-}
-
-.mainSlider .contentSlider h2 .contentWifi {
-  color: var(--secondColor);
-  position: relative;
-}
-
-.mainSlider .contentSlider h2 .contentWifi .wifi-symbol {
-  position: absolute;
-  left: 93px;
-  transform: rotate(-7deg);
-  top: 45px;
-}
-
-.mainSlider .contentSlider h3 {
-  color: var(--whiteColor);
-  padding-bottom: 20px;
-  line-height: 68px;
-  font-size: 37px;
-  margin-bottom: 60px;
-}
-.mainSlider .contentSlider .btnsSlider {
-  display: flex;
-  gap: 16px;
-}
-
-.mainSlider .imgSlider {
-  display: flex;
-  justify-content: center;
-}
-
-.mainSlider .imgSlider img {
-  width: 480px;
-}
-/** End Main Slider **/
-
 /* Start Wifi Animation */
 @keyframes arcHide {
   0% {
@@ -82,48 +24,6 @@
   100% {
     opacity: 0.2;
   }
-}
-.wifi span {
-  display: block;
-  margin-bottom: -14px;
-}
-.wifi span.arc1 {
-  opacity: 1;
-}
-.wifi span.arc2 {
-  opacity: 0;
-  animation-name: arcHide;
-  animation-iteration-count: infinite;
-  animation-duration: 3s;
-  animation-delay: 0.5s;
-}
-.wifi span.arc3 {
-  opacity: 0;
-  animation-name: arcHide;
-  animation-iteration-count: infinite;
-  animation-duration: 2.5s;
-  animation-delay: 1s;
-}
-.wifi span.arc4 {
-  opacity: 0;
-  animation-name: arcHide;
-  animation-iteration-count: infinite;
-  animation-duration: 2s;
-  animation-delay: 1.5s;
-}
-.wifi-he {
-  text-align: center;
-  vertical-align: center;
-  margin: 20px 10px 0;
-  background-color: #31313b;
-}
-.wifi {
-  width: 200px;
-  background: #eee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .wifi-symbol {
   display: none;

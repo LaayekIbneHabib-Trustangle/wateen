@@ -185,7 +185,7 @@ const Plans = () => {
               >
                 <img
                   width="100%"
-                  src="images/inventory-management-plan.svg"
+                  src="images/inventory-management-plan.webp"
                   alt=""
                 />
               </div>

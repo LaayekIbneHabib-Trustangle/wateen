@@ -39,7 +39,7 @@ const POS = () => {
       </section>
       <section>
         <Wrapper>
-          <Bars img="/images/pos.svg" />
+          <Bars img="/images/pos.webp" />
         </Wrapper>
       </section>
       <section style={{ marginTop: "5rem", marginBottom: "55rem" }}>

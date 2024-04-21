@@ -141,7 +141,7 @@ const LetsTalk = () => {
                 borderRadius: "2rem",
               }}
             >
-              <img width="55rem" src="/images/email-icon.svg" alt="" />
+              <img width="55rem" src="/images/email-icon.webp" alt="" />
               <h2>Email</h2>
               <p style={{ fontSize: "1.2rem" }}>
                 Our friendly team is here to help.
@@ -158,7 +158,7 @@ const LetsTalk = () => {
                 href="mailto:info@wateen.io"
               >
                 <span>info@wateen.io</span>
-                <img src="/images/redirect-icon.svg" alt="" />
+                <img src="/images/redirect-icon.webp" alt="" />
               </a>
             </div>
             <div
@@ -174,7 +174,7 @@ const LetsTalk = () => {
                 borderRadius: "2rem",
               }}
             >
-              <img width="55rem" src="/images/location-icon.svg" alt="" />
+              <img width="55rem" src="/images/location-icon.webp" alt="" />
               <h2>Office</h2>
               <p style={{ fontSize: "1.2rem" }}>
                 Come say hello at our office HQ.
@@ -191,7 +191,7 @@ const LetsTalk = () => {
                 href=""
               >
                 <span>Almasiaf, Riyadh 12465, Saudi Arabia</span>
-                <img src="/images/redirect-icon.svg" alt="" />
+                <img src="/images/redirect-icon.webp" alt="" />
               </a>
             </div>
             <div
@@ -207,7 +207,7 @@ const LetsTalk = () => {
                 borderRadius: "2rem",
               }}
             >
-              <img width="55rem" src="/images/email-icon.svg" alt="" />
+              <img width="55rem" src="/images/email-icon.webp" alt="" />
               <h2>Phone</h2>
               <p style={{ fontSize: "1.2rem" }}>
                 Sun to Thu from 8 am to 5 pm.
@@ -224,7 +224,7 @@ const LetsTalk = () => {
                 href="tel:+966-55-225-3324"
               >
                 <span>+966-55-225-3324</span>
-                <img src="/images/redirect-icon.svg" alt="" />
+                <img src="/images/redirect-icon.webp" alt="" />
               </a>
             </div>
           </div>
