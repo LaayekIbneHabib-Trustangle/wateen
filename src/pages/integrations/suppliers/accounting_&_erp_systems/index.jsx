@@ -40,15 +40,20 @@ const AccountingAndERPSytems = () => {
             </h2>
             <p
               style={{
-                color: "#242424",
+                color: "#848484",
                 textAlign: "center",
-                fontSize: "1.3rem",
+                fontSize: "1.7rem",
                 fontWeight: "400",
+                lineheight: "30px",
+                fontfamily: "Inter",
               }}
             >
+              <br />
               Wateen offers seamless integration with popular ERP systems and
-              accounting software, making it easier than ever to manage your
-              business processes.
+              accounting software, making it easier than ever to 
+              <br />
+              manage your business processes.
+              <br />
               <br />
               Take a look at the benefits of integrating Wateen with the
               following platforms
