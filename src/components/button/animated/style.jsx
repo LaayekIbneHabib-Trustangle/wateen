@@ -45,6 +45,8 @@ export const Button = styled.button`
     align-items: center;
     transform: rotate(-45deg);
     transition: transform 0.3s ease;
+    position: relative;
+    left: 12px;
 
     img {
       width: 2rem;
