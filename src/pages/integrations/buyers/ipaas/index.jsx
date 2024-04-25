@@ -12,7 +12,7 @@ const IPAAS = () => {
     "Home",
     "Intergrations",
     "Buyers",
-    "Integration Platform (iPaaS)",
+    "Integration Platform (iPaaS) Buyers",
   ];
 
   return (
@@ -21,7 +21,7 @@ const IPAAS = () => {
         <HeroSecondary
           location={location}
           h2="Integration Platform (iPaaS)"
-          h3="Integration of Wateen for Suppliers!"
+          h3="Integration of Wateen for Buyers!"
         />
       </section>
       <section style={{ margin: "5rem 0 5rem 0" }}>

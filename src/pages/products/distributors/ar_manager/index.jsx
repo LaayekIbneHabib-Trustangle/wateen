@@ -12,59 +12,65 @@ import {
 
 const ARManager = () => {
   const images = [
-    "/images/intuitive-cookbook-management.webp",
-    "/images/seamless-recipe-search.webp",
-    "/images/taste-and-tell.webp",
-    "/images/convenient-recipe-printing-and-exporting.webp",
-    "/images/integration-with-external-services.webp",
-    "/images/creating-and-organizing-collections.webp",
-    "/images/recipe-sharing.webp",
-    "/images/personalized-recipe-customization.webp",
-    "/images/easy-recipe-access.webp",
-    "/images/meal-planning-and-nutrition-tracking-tools.webp",
+    "/images/Reduce-AR-Aging.webp",
+    "/images/Improve-Cash-Flow.webp",
+    "/images/Enhance-Billing-Accuracy.webp",
+    "/images/Strengthen-Credit-and-Collections-Policies.webp",
+    "/images/Optimize-AR-Reporting-and-Analysis.webp",
+    "/images/Foster-Customer-Relationships.webp",
+    "/images/Implement-Automation-and-Technology-Solutions.webp",
+    "/images/Ensure-Compliance-and-Audit-Readiness.webp",
   ];
 
   const captions = [
-    "Intuitive Cookbook Management",
-    "Seamless Recipe Search",
-    "Taste and Tell",
-    "Convenient Recipe Printing and Exporting",
-    "Integration with External Services",
-    "Creating and Organizing Collections",
-    "Recipe Sharing",
-    "Personalized Recipe Customization",
-    "Easy Recipe Access",
-    "Meal Planning and Nutrition Tracking Tools",
+    "Reduce AR Aging",
+    "Improve Cash Flow",
+    "Enhance Billing Accuracy",
+    "Strengthen Credit and Collections Policies",
+    "Optimize AR Reporting and Analysis",
+    "Foster Customer Relationships",
+    "Implement Automation and Technology Solutions",
+    "Ensure Compliance and Audit Readiness",
   ];
 
   const forAlternateCards = {
     wateenSoftwareSoftware: {
-      caption: "will help you!",
-      heading: "Wateen Cookbook Software",
-      details:
-        "Wateen Cookbook software is an invaluable tool for anyone who loves to cook. It offers an easy way to store, organize, and share recipes. It also allows users to create custom meal plans and grocery lists. With cookbook software, home cooks can quickly search for recipes, find ingredients, and plan out a meal. The software also allows users to save their recipes for later use and share them with friends and family. Cookbook software is a great way to streamline the cooking process and make cooking easier and more enjoyable.",
-      image: "/images/wateen-cookbook-software.webp",
+      heading: "Wateen AR Manager will help you!",
+      details: 
+        "The Accounts Receivable Manager is vital for Wateen, As an Online Marketplace & Inventory Management Platform. It efficiently handles payment collection, improving cash flow and profitability while reducing bad debts. It also prioritizes customer relationships by promptly addressing payment inquiries, making them crucial for Wateen's financial stability and growth.",
+      image: "/images/AR-Manager-will-help-you.webp",
     },
 
     clearVisibility: {
-      heading: "Improved Accuracy",
-      details:
-        "Wateen Cookbook software eliminates the need to copy and paste recipes from multiple sources, resulting in recipes that are more accurate and up to date.",
-      image: "/images/improved-accuracy.webp",
+      heading: "Enhanced Clarity",
+      details: [
+        "Improved cash flow and reduced bad debts.",
+        "Promptly addresses customer payment inquiries.",
+        "Essential for financial stability and growth.",
+      ],
+      image: "/images/Enhanced-Clarity.webp",
     },
 
     increasedEfficiency: {
-      heading: "Increased Efficiency",
-      details:
-        "Wateen Cookbook software helps reduce the amount of time users spend searching for and organizing their recipes, saving them time and energy.",
-      image: "/images/increased-efficiency.webp",
+      heading: "Hassle-free Payment",
+      details: [
+        "Wateen AR Manager streamlines payment process.",
+        "Simplifies and accelerates payment collection.",
+        "Enhances customer experience.",
+        "Contributes to efficient financial operations.",
+      ],
+      image: "/images/Hassle-free-Payment.webp",
     },
 
     customizationOptions: {
-      heading: "Customization Options",
-      details:
-        "Wateen Cookbook software provides users with the ability to customize their recipes to their own tastes, such as adding ingredients, adjusting cooking times, and changing serving sizes.",
-      image: "/images/customization-options.webp",
+      heading: "Streamlined Approval Process",
+      details: [
+        "Wateen AR Manager streamlines workflow approvals.",
+        "Ensures timely and accurate approvals",
+        "Facilitates smooth financial operations.",
+        "Integrates with your systems directly.",
+      ],
+      image: "/images/Streamlined-Approval-Process.webp",
     },
   };
 
@@ -76,7 +82,8 @@ const ARManager = () => {
         <HeroSecondary
           location={location}
           h2="AR Manager"
-          h3="Trust Us with Your Data Entry Experience Seamless AR Processing with Automation."
+          h3={<p>Trust Us with Your Data Entry <br />
+            Experience Seamless AR Processing with Automation.</p>}
         />
       </section>
       <section
@@ -87,19 +94,25 @@ const ARManager = () => {
       >
         <p
           style={{
-            fontSize: "1.5rem",
+            fontSize: "1.7rem",
             color: "#FF7600",
           }}
         >
-          Wateen Cookbook Software
+          Wateen Accounts Receivable Automation
         </p>
         <h1
           style={{
-            fontSize: "3rem",
+            fontfamily: "Nunito",
+            fontSize: "2.5rem",
+            fontWeight: "500",
+            lineHeight: "30px",
+            textAlign: "center",
             color: "#52006A",
           }}
         >
-          Offers Some Significant Benefits
+          Save Hours Each Week by Automating Data Entry and Card Processing, While Giving
+          <br />
+          Customers More Convenient Ways to Pay.
         </h1>
         <div
           style={{

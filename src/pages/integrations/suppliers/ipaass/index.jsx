@@ -7,8 +7,13 @@ import {
   RequestADemo,
 } from "../../../../components";
 
-const IPAAS = () => {
-  const location = useLocation();
+const IPAASS = () => {
+  const location = [
+    "Home",
+    "Intergrations",
+    "Suppliers",
+    "Integration Platform (iPaaS) Suppliers",
+  ];
 
   return (
     <>
@@ -16,7 +21,7 @@ const IPAAS = () => {
         <HeroSecondary
           location={location}
           h2="Integration Platform (iPaaS)"
-          h3="Integration of Wateen for Buyers!"
+          h3="Integration of Wateen for Suppliers!"
         />
       </section>
       <section style={{ margin: "5rem 0 5rem 0" }}>
@@ -68,4 +73,4 @@ const IPAAS = () => {
   );
 };
 
-export default IPAAS;
+export default IPAASS;

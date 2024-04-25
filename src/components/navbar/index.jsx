@@ -48,7 +48,14 @@ const values = {
       "Integration Platform (iPaaS) Suppliers",
     ],
   },
-  resources: ["About Us", "Blog", "News"],
+  resources: {
+    resources: [
+      "About Us",
+      // "Case Studies",
+      "Blog",
+      "News",
+    ],
+  }
 };
 
 const Navbar = () => {

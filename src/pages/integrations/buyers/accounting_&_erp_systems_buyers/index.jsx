@@ -29,10 +29,12 @@ const AccountingAndERPSytemsBuyers = () => {
           <div style={{ margin: "5rem 0 5rem 0" }}>
             <p
               style={{
-                color: "#242424",
+                color: "#848484",
                 textAlign: "center",
-                fontSize: "1.3rem",
+                fontSize: "1.7rem",
                 fontWeight: "400",
+                lineheight: "30px",
+                fontfamily: "Inter",
               }}
             >
               In today's digital age, seamless integration between different

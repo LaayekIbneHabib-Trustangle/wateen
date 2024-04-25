@@ -27,6 +27,7 @@ import {
   AccountingAndERPSytemsBuyers,
   Ecommerce,
   IPAAS,
+  IPAASS,
   AboutUs,
   NotFound,
   RequestADemo,
@@ -92,7 +93,7 @@ const App = () => {
         />
         <Route
           path="/integration-platform-(i-paa-s-)-suppliers"
-          element={<IPAAS />}
+          element={<IPAASS />}
         />
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>

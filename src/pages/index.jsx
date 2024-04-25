@@ -23,6 +23,7 @@ import POS from "./integrations/buyers/pos";
 import AccountingAndERPSytemsBuyers from "./integrations/buyers/accounting_&_erp_systems_buyers";
 import Ecommerce from "./integrations/buyers/ecommerce";
 import IPAAS from "./integrations/buyers/ipaas";
+import IPAASS from "./integrations/suppliers/ipaass";
 import AboutUs from "./about_us";
 import NotFound from "./404";
 import RequestADemo from "./request_a_demo";
@@ -54,6 +55,7 @@ export {
   AccountingAndERPSytemsBuyers,
   Ecommerce,
   IPAAS,
+  IPAASS,
   AboutUs,
   NotFound,
   RequestADemo,

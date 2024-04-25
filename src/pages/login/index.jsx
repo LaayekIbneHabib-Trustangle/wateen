@@ -23,7 +23,13 @@ const Login = () => {
                   fontWeight: "700",
                 }}
               >
-                Let's Sign You In
+                Let's Sign 
+                <span
+                  style={{
+                    color: "#000",
+                  }}
+                >
+                  &nbsp;You In</span>
               </h2>
               <p
                 style={{
@@ -32,6 +38,7 @@ const Login = () => {
                   fontWeight: "600",
                 }}
               >
+                <br />
                 Welcome back, you've been missed!
               </p>
               <form
