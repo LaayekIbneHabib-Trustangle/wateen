@@ -59,7 +59,7 @@ const InvoiceManager = () => {
             color: "#FF7600",
           }}
         >
-          Invoice Manager
+          Wateen Invoice Manager
         </p>
         <h1
           style={{
