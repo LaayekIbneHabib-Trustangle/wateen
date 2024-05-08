@@ -47,7 +47,7 @@ const Marketplace = () => {
               marginTop: "1rem",
             }}
           >
-            Inventory Management
+            Marketplace
           </h2>
           <p
             style={{
@@ -57,9 +57,7 @@ const Marketplace = () => {
               marginTop: "1rem",
             }}
           >
-            Streamline your inventory processes and take control of your
-            business with our flexible pricing plans. Choose the plan that suits
-            your needs and unlock a world of efficiency.
+            Spend Like Nothing, Unleash the Power of Pocket Change in Our Marketplace!
           </p>
         </div>
 

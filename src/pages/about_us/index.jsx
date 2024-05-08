@@ -129,15 +129,6 @@ const AboutUs = () => {
               }}
             >
               <div>
-                <p
-                  style={{
-                    color: "#FF7600",
-                    fontSize: "1.5rem",
-                    fontWeight: "400",
-                  }}
-                >
-                  Wateen Invoice Manager
-                </p>
                 <h2
                   style={{
                     color: "#52006A",

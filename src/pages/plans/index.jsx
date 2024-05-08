@@ -215,9 +215,7 @@ const Plans = () => {
                 fontWeight: "400",
               }}
             >
-              Streamline your inventory processes and take control of your
-              business with our flexible pricing plans. Choose the plan that
-              suits your needs and unlock a world of efficiency.
+              Spend Like Nothing, Unleash the Power of Pocket Change in Our Marketplace!
             </p>
             <div
               style={{ display: "flex", flexDirection: "column", gap: "5rem" }}

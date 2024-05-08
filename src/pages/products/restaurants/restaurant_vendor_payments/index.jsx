@@ -40,7 +40,7 @@ const RestaurantVendorPayments = () => {
   const forAlternateCards = {
     wateenSoftwareSoftware: {
       caption: "will help you!",
-      heading: "Wateen Multi Units and Chains Software",
+      heading: "Wateen Restaurant vendor payments software.",
       details:
         "Wateen Restaurant vendor payments software is a must-have for any restaurant. It streamlines the process of paying vendors by automating payments, reconciling accounts, and providing detailed reporting. This eliminates the need for manual processes such as tracking vendor invoices, preparing payments, managing accounts, and dealing with discrepancies. It also simplifies the process for vendors by providing them with secure, automated payment processing. With Wateen restaurant vendor payments software, restaurants can save time and money, reduce mistakes, and improve vendor relations.",
       image: "/images/wateen-multi-units-and-chain-software.webp",

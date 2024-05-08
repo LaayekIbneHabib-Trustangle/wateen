@@ -3,14 +3,14 @@ import { HeroSecondary, Wrapper } from "../../components";
 import "./style.css";
 
 const LetsTalk = () => {
-  const location = ["Hpme", "Let's talk"];
+  const location = ["Home", "Let's talk"];
   return (
     <>
       <section>
         <HeroSecondary
           location={location}
           h2="Let's Talk"
-          h3="We'd love to hear from you , Our friendly team is always here to chat."
+          h3="Our friendly team is always here to chat."
         />
       </section>
       <section style={{ margin: "5rem  0 55rem 0" }}>
