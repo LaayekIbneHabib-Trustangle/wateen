@@ -110,7 +110,6 @@ const Plans = () => {
               <div
                 style={{
                   display: "flex",
-                  alignItems: "center",
                   justifyContent: "space-between",
                   margin: "5rem 0 0 0",
                   flexWrap: "wrap",
@@ -223,7 +222,6 @@ const Plans = () => {
               <div
                 style={{
                   display: "flex",
-                  alignItems: "center",
                   justifyContent: "space-between",
                   margin: "5rem 0 0 0",
                   flexWrap: "wrap",
