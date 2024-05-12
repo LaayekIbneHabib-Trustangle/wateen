@@ -12,7 +12,7 @@ const IPAAS = () => {
     "Home",
     "Intergrations",
     "Buyers",
-    "Integration Platform (iPaaS) Buyers",
+    "IPaas",
   ];
 
   return (

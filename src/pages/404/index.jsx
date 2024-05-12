@@ -46,7 +46,7 @@ const NotFound = () => {
             </p>
             <div style={{ marginTop: "2rem" }}>
               <NavLink to="/">
-                <AnimatedButton name="Go to homepage" />
+                <AnimatedButton name="Go Home" />
               </NavLink>
             </div>
           </div>

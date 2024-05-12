@@ -69,6 +69,7 @@ const ARManager = () => {
         "Ensures timely and accurate approvals",
         "Facilitates smooth financial operations.",
         "Integrates with your systems directly.",
+        "Improves efficiency and productivity.",
       ],
       image: "/images/Streamlined-Approval-Process.webp",
     },

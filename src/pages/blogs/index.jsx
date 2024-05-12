@@ -21,7 +21,7 @@ const Blogs = () => {
     setActiveButton(button);
   };
 
-  const location = ["Home", "Resources", "Blogs"];
+  const location = ["Home", "Resources", "Blog"];
 
   return (
     <>
