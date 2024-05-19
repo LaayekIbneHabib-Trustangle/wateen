@@ -14,18 +14,18 @@ import "./style.css";
 const OrderManager = () => {
   const images = [
     "/images/automating-ordering.webp",
-    "/images/seamless-operation.webp",
-    "/images/enhanced-business-oversight.webp",
-    "/images/efficient-management.webp",
-    "/images/anticipating-business-needs.webp",
+    "/images/Control-and-Replenish-Inventory.webp",
+    "/images/Track-and-Integrate-Shipping.webp",
+    "/images/Forecast-Future-Demand.webp",
+    "/images/Centralize-Insights-and-Visibility.webp",
   ];
 
   const captions = [
     "Automating Ordering",
-    "Seamless Operations",
-    "Enhanced Business Oversight",
-    "Efficient Management",
-    "Anticipating Business Needs",
+    "Control and Replenish Inventory",
+    "Track and Integrate Shipping",
+    "Forecast Future Demand",
+    "Centralize Insights and Visibility",
   ];
 
   const forAlternateCards = {
