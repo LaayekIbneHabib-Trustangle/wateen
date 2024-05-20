@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Dropdown } from "../../components";
 import useStore from "../../store";
+import "./style.css";
 
 const InventoryManagement = () => {
   const [activeBtn, setActiveBtn] = useState("btn-1");
@@ -40,7 +41,11 @@ const InventoryManagement = () => {
 
   return (
     <>
-      <div>
+      <div style={{
+        width: '97vw',
+      }}>
+
+        <div>  
         <div
           style={{
             textAlign: "center",
@@ -151,14 +156,15 @@ const InventoryManagement = () => {
             </div>
           </div>
         </div>
+        </div>
 
         <div
           style={{
-            display: "flex",
-            justifyContent: "center",
+            display: 'flex',
+            overflowX: 'scroll',
           }}
         >
-          <div
+          <div className="sm"
             style={{
               backgroundImage: "url(/images/inventory-management-plan.webp)",
               backgroundRepeat: "no-repeat",
@@ -168,6 +174,7 @@ const InventoryManagement = () => {
               marginTop: "5rem",
             }}
           >
+            
             <div style={{ display: "flex", marginTop: "27rem" }}>
               <div
                 style={{
