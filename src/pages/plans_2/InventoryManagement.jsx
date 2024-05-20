@@ -45,7 +45,6 @@ const InventoryManagement = () => {
         width: '97vw',
       }}>
 
-        <div>  
         <div
           style={{
             textAlign: "center",
@@ -155,7 +154,6 @@ const InventoryManagement = () => {
               </button>
             </div>
           </div>
-        </div>
         </div>
 
         <div
