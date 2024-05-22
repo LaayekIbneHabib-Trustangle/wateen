@@ -8,10 +8,9 @@ const RequestADemo = () => {
     <>
       <Card>
         <div>
-          <h2>Request a Demo Now!</h2>
+          <h2>Join Us Today!</h2>
           <p>
-            Let us guide you through our feature-rich software, tailored to meet
-            your unique needs.
+          on this exciting journey and revolutionize your B2B experience today!
           </p>
         </div>
         <div>
