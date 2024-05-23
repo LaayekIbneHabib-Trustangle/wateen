@@ -27,9 +27,27 @@ const IPAAS = () => {
       <section style={{ margin: "5rem 0 5rem 0" }}>
         <Wrapper>
           <Bars img="/images/reachware.webp" />
+        </Wrapper>
+          <br />
+          <br />
+          <Wrapper>
+          <h2
+            style={{
+              color: "#52006A",
+              textAlign: "center",
+              fontSize: "3rem",
+              fontStyle: "normal",
+              fontWeight: "700",
+              lineHeight: "normal",
+              marginTop: "5rem",
+            }}
+          >
+            Here's How It Works
+          </h2>
           <br />
           <br />
           <Bars img="/images/ipaas-buyers-how-it-works.webp" />
+          </Wrapper>
           <br />
           <br />
           <h2
@@ -62,7 +80,6 @@ const IPAAS = () => {
               <img src="/images/ipaas-buyers-cost-optimization.webp" alt="" />
             </div>
           </div>
-        </Wrapper>
       </section>
       <section style={{ marginTop: "5rem", marginBottom: "55rem" }}>
         <Wrapper>

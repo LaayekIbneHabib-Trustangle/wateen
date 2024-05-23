@@ -74,7 +74,7 @@ const Footer = () => {
                         </Link>
                       </td>
                       {/* <td>
-                        <img src="/images/side-arrow.webp" alt="" />
+                        <img src="/images/side-arrow.webp" alt=" " />
                         <p>Careers</p>
                       </td> */}
                       <td>

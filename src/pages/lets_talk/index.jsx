@@ -68,8 +68,30 @@ const LetsTalk = () => {
                     width: "40%",
                   }}
                   type="text"
-                  placeholder="Name"
+                  placeholder="First Name"
                 />
+                <input
+                  style={{
+                    background: "#E7E5EA",
+                    border: "0",
+                    borderRadius: "1rem",
+                    padding: "0 0 0 2rem",
+                    height: "4rem",
+                    width: "40%",
+                  }}
+                  type="text"
+                  placeholder="Last Name"
+                />
+                </div>
+                <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  gap: "1rem",
+                  alignItems: "center",
+                  marginBottom: "1rem",
+                }}
+              >
                 <input
                   style={{
                     background: "#E7E5EA",
@@ -81,6 +103,18 @@ const LetsTalk = () => {
                   }}
                   type="email"
                   placeholder="Email"
+                />
+                <input
+                  style={{
+                    background: "#E7E5EA",
+                    border: "0",
+                    borderRadius: "1rem",
+                    padding: "0 0 0 2rem",
+                    height: "4rem",
+                    width: "40%",
+                  }}
+                  type="tel"
+                  placeholder="Phone Number"
                 />
               </div>
               <div

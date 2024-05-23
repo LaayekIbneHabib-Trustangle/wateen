@@ -93,6 +93,7 @@ export const QuickAccess = styled.div`
     letter-spacing: 0.1rem;
   }
 
+  
   table tr td span {
     display: flex;
     gap: 1rem;
