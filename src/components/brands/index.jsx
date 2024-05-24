@@ -19,48 +19,56 @@ const Brands = () => {
         </div>
         <div className="logos">
           <div className="logos-slide">
-            <img src="/images/hunger-station.webp" alt="" />
             <img
-              style={{ marginRight: "6rem" }}
-              src="/images/talabat.webp"
+              src="/images/micros.webp"
               alt=""
             />
             <img
-              style={{ marginRight: "6rem" }}
-              src="/images/to-you.webp"
+              src="/images/Simphony-POS.webp"
               alt=""
             />
             <img
-              style={{ marginRight: "6rem" }}
-              src="/images/jahez.webp"
+              src="/images/Foodics.webp"
               alt=""
             />
             <img
-              style={{ marginRight: "4rem" }}
-              src="/images/mr-sool.webp"
+              src="/images/Oracle-NetSuite.webp"
+              alt=""
+            />
+            <img
+              src="/images/oracle-fusion.webp"
+              alt=""
+            />
+            <img 
+              style={{ marginRight: "1rem" }}
+              src="/images/SAP.webp"
               alt=""
             />
           </div>
           <div className="logos-slide">
-            <img src="/images/hunger-station.webp" alt="" />
             <img
+              src="/images/micros.webp"
+              alt=""
+            />
+            <img
+              src="/images/Simphony-POS.webp"
+              alt=""
+            />
+            <img
+              src="/images/Foodics.webp"
+              alt=""
+            />
+            <img
+              src="/images/Oracle-NetSuite.webp"
+              alt=""
+            />
+            <img
+              src="/images/oracle-fusion.webp"
+              alt=""
+            />
+            <img 
               style={{ marginRight: "1rem" }}
-              src="/images/talabat.webp"
-              alt=""
-            />
-            <img
-              style={{ marginRight: "3rem" }}
-              src="/images/to-you.webp"
-              alt=""
-            />
-            <img
-              style={{ marginRight: "3rem" }}
-              src="/images/jahez.webp"
-              alt=""
-            />
-            <img
-              style={{ marginRight: "10rem" }}
-              src="/images/mr-sool.webp"
+              src="/images/SAP.webp"
               alt=""
             />
           </div>
