@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Dropdown } from "../../components";
 import useStore from "../../store";
+import { Wrapper } from "../../components";
+import RequestADemo from "../../components/request-a-demo";
+
 
 const Marketplace = () => {
   const [activeBtn, setActiveBtn] = useState("btn-1");
@@ -157,13 +160,13 @@ const Marketplace = () => {
               display: "flex",
               justifyContent: "space-around",
               alignItems: "center",
-              width: "49%",
               height: "fit-content",
               backgroundColor: "#F8F8F8",
               borderRadius: "2rem",
               flexWrap: "wrap",
               gap: "2rem",
               padding: "3.5rem 2rem 3.5rem 2rem",
+              width: '38%',
             }}
           >
             <h2
@@ -212,13 +215,13 @@ const Marketplace = () => {
               display: "flex",
               justifyContent: "space-around",
               alignItems: "center",
-              width: "49%",
               height: "fit-content",
               backgroundColor: "#52006A",
               borderRadius: "2rem",
               flexWrap: "wrap",
               gap: "2rem",
               padding: "3.5rem 2rem 3.5rem 2rem",
+              width: '38%',
             }}
           >
             <h2
@@ -268,6 +271,11 @@ const Marketplace = () => {
             </button>
           </div>
         </div>
+      <section style={{ marginTop: "8rem" }}>
+        <Wrapper>
+          <RequestADemo />
+        </Wrapper>
+      </section>
       </div>
     </>
   );
