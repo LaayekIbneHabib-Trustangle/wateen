@@ -3,3 +3,13 @@
         width: 253vw !important;
     }
 }
+
+@media (max-width: 404px) {
+    .sm > div:nth-child(2n-1) {
+        margin-top: 66vw !important;
+    }
+
+    .sm > div:nth-child(2n) {
+        margin-top: 24vw !important;
+    }
+}
