@@ -273,7 +273,6 @@ const InventoryManagement = () => {
               >
                 <div
                   style={{
-                    backgroundColor: "#faf9ec",
                     width: "10rem",
                     height: "5rem",
                   }}
@@ -307,7 +306,6 @@ const InventoryManagement = () => {
               >
                 <div
                   style={{
-                    backgroundColor: "#f9f1e4",
                     width: "10rem",
                     height: "5rem",
                   }}
@@ -341,7 +339,6 @@ const InventoryManagement = () => {
               >
                 <div
                   style={{
-                    backgroundColor: "#faf9ec",
                     width: "10rem",
                     height: "5rem",
                   }}
