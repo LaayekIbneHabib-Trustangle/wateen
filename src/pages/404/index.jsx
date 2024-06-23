@@ -20,7 +20,7 @@ const NotFound = () => {
               style={{
                 color: "#FF7600",
                 fontWeight: "600",
-                fontSize: "1.5rem",
+                fontSize: "2.2rem",
               }}
             >
               404 error
@@ -32,13 +32,15 @@ const NotFound = () => {
                 fontSize: "5rem",
               }}
             >
-              Page Not Found
+              Under Maintenance
             </h2>
             <p
               style={{
                 color: "#667085",
                 fontWeight: "400",
-                fontSize: "1.3rem",
+                fontSize: "1.8rem",
+                width: '80%',
+                marginTop: '15px',
               }}
             >
               Sorry, the page you are looking for doesn't exist or has been
@@ -46,7 +48,7 @@ const NotFound = () => {
             </p>
             <div style={{ marginTop: "2rem" }}>
               <NavLink to="/">
-                <AnimatedButton name="Go Home" />
+                <AnimatedButton name="Back Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" />
               </NavLink>
             </div>
           </div>

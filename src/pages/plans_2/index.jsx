@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HeroSecondary, Wrapper } from "../../components";
+import RequestADemo from "../../components/request-a-demo";
 import InventoryManagement from "./InventoryManagement";
 import Marketplace from "./marketplace";
 

@@ -4,8 +4,9 @@ import {
   HeroSecondary,
   Wrapper,
   Bars,
-  RequestADemo,
+
 } from "../../../../components";
+import RequestADemo from "../../../../components/request-a-demo";
 
 const Ecommerce = () => {
   const location = ["Home", "Intergrations", "Buyers", "Ecommerce"];

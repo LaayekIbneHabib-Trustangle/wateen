@@ -4,10 +4,10 @@ import {
   Wrapper,
   HeroSecondary,
   Brands,
-  RequestADemo,
   Benefits,
   AlternateCards,
 } from "../../../../components";
+import RequestADemo from "../../../../components/request-a-demo";
 // import { section } from "./style";
 
 const PurchasingAndOrderManagement = () => {

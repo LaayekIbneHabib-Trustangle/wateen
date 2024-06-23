@@ -7,8 +7,8 @@ import {
   StandardCard,
   TabCard,
   Brands,
-  RequestADemo,
 } from "../../components";
+import RequestADemo from "../../components/request-a-demo";
 
 import { Section, Hero, Primary, Scroll, Seconary } from "./style";
 

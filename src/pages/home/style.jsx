@@ -44,14 +44,14 @@ export const Primary = styled.div`
     position: relative;
     top: 3.4rem;
     left: 27.25rem !important;
-    width: 7rem;
+    width: 7.2rem;
     margin: -6rem 0 0 0;
     transform: rotate(30deg);
   }
 
   @media (-webkit-min-device-pixel-ratio: 0) {
     .wifi-ani {
-      left: 28.35rem !important;
+      left: 28.24rem !important;
     }
   }
 
