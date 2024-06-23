@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Wrapper, HeroSecondary } from "../../components";
+import RequestADemo from "../../components/request-a-demo";
 import "./style.css";
 
 const Plans = () => {

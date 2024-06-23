@@ -4,8 +4,8 @@ import {
   HeroSecondary,
   MediaBlock,
   Brands,
-  RequestADemo,
 } from "../../../components";
+import RequestADemo from "../../../components/request-a-demo";
 import { Section } from "./style";
 
 const data1 = [

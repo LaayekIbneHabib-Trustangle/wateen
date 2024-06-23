@@ -4,9 +4,9 @@ import {
   Wrapper,
   HeroSecondary,
   Brands,
-  RequestADemo,
   Benefits,
 } from "../../../../components";
+import RequestADemo from "../../../../components/request-a-demo";
 import "./style.css";
 
 const InvoiceManager = () => {

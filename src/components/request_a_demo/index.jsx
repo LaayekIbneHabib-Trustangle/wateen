@@ -14,7 +14,7 @@ const RequestADemo = () => {
           </p>
         </div>
         <div>
-          <NavLink to="/request-a-demo">
+          <NavLink to="/lets-talk">
             <StandardButton
               width="18rem"
               borderRadius="1rem"

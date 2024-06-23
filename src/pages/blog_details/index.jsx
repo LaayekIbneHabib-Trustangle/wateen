@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Wrapper } from "../../components";
+import RequestADemo from "../../components/request-a-demo";
 import data from "../data/blog-posts.json";
 import "./style.css";
 

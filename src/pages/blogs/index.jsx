@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import { HeroSecondary, Wrapper, RequestADemo } from "../../components";
+import { HeroSecondary, Wrapper } from "../../components";
+import RequestADemo from "../../components/request-a-demo";
 import Pagination from "../../components/pagination/pagination";
 import data from "../data/blog-posts.json";
 import "./style.scss";
